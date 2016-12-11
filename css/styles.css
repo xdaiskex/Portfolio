@@ -1,0 +1,479 @@
+body{
+	font-family: helvetica;
+}
+
+header{
+	color: white;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+header h1{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding: 20px;
+	font-size: 100px;
+	color: #339b3a;
+	font-family: 'Handlee', cursive;
+	font-weight: bold;
+}
+
+.nav_menu{
+	background-color: #339b3a;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+.nav_menu ul{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.nav_menu ul li{
+	list-style: none;
+	font-size: 30px;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	width: 15%;
+	margin: auto;
+	text-align: center;
+}
+
+.nav_menu ul li a{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav_menu ul li a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.nav_active{
+	color: black;
+}
+
+.hamburger{
+	width: 60px;
+	height: 50px;
+	padding-left: 20px;
+	display: none;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #339b3a;
+	color: white;
+	margin: auto;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+footer ul li:hover{
+	cursor: pointer;
+	color: black;
+}
+
+footer .foot{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+footer .hours{
+	padding-top: 20px;
+	font-size: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	width: 30%;
+}
+
+footer ul li{
+	text-align: center;
+}
+
+footer .contact{
+	
+}
+
+footer .hours h3{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#myCarousel{
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+.carousel-inner > .item{
+	background-size: cover;
+	width: 100%;
+}
+
+.carousel-inner > .item > img{
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	max-height: 100vh;
+}
+
+section{
+	width: 50vw;
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+iframe{
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+section h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+section p, li{
+	text-align: left;
+	font-size: 20px;
+}
+
+section li{
+	list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.interior{
+	width: 100%;
+	height: 40%;
+	margin-top: 40px;
+}
+
+section h2{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.gallery{
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+figure{
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+}
+
+.grow{
+	height: 200px;
+  	width: 200px;
+  	overflow: hidden;
+}
+
+.gallery_items{
+	padding: 15px;
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8); 
+}
+
+.gallery_items{
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gallery_items:hover{
+	padding: 0px;
+}
+
+
+figcaption{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.phone{
+	font-size: 26px;
+}
+
+.order{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.pdf{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+}
+
+.pdf_menu{
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+
+.click{
+	font-size: 25px;
+	display: inline-block;
+	text-align: center;
+}
+
+span{
+	display: inline-block;
+	text-align: center;
+}
+
+.frame{
+	display: block;
+	width: 100%;
+	height: 100vh;
+}
+
+@media screen and (max-width: 1040px){
+	.nav_menu ul li a{
+		padding: 10px 5px;
+	}
+
+	.gallery_items{
+		width: 140px;
+		height: 140px;
+	}
+}
+
+@media screen and (max-width: 1021px){
+	.nav_menu ul li a{
+		padding: 10px 5px;
+	}
+
+	.gallery_items{
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	header h1{
+		font-size: 80px;
+	}
+
+	.nav_menu{
+		text-align: left;
+		margin-bottom: 0px;
+		width: 100%;
+	}
+
+	.nav_menu ul li{
+		width: 100%;
+		text-align: left;
+		list-style: none;
+		font-size: 30px;
+		display: inline-block;
+		padding: 20px 0px;
+	}
+
+	.nav_menu ul li a{
+		width: 100%;
+		text-align: left;
+		padding: 20px 40px;
+		color: white;
+		text-decoration: none;
+	}
+
+	.nav_menu ul li{
+		float: none;
+		display: block;
+		text-align: left;
+		border-bottom: 2px solid white;
+		padding-left: 20px;
+	}
+
+	.nav_menu ul li a{
+		padding: 10px 0px;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.nav_menu ul li:last-child{
+		border-bottom: none;
+	}
+
+	.hamburger{
+		width: 80px;
+		height: 70px;
+		display: block;
+	}
+
+	.nav_expanded{
+		display: block;
+	}
+
+	.nav_menu{
+		margin-bottom: 10px;
+	}
+
+	iframe{
+		height: 350px;
+	}
+
+	footer .hours{
+		display: block;
+		width: 100%;
+	}
+
+	.figure{
+		display: block;
+		width: 100%;
+	}
+
+	.gallery_items{
+		height: 300px;
+		width: 300px;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	.pdf{
+		display: block;
+	}
+
+	section{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.frame{
+		display: none;
+	}
+
+	.pdf_menu{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px){
+	header h1{
+		font-size: 45px;
+	}
+
+	section h2{
+		font-size: 40px;
+	}
+
+	.nav_menu ul li{
+		float: none;
+		display: block;
+		text-align: left;
+		border-bottom: 2px solid white;
+		padding-left: 20px;
+		font-size: 20px;
+	}
+
+	.nav_menu ul li a{
+		padding: 10px 0px;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.nav_menu ul li:last-child{
+		border-bottom: none;
+	}
+
+	.hamburger{
+		width: 60px;
+		height: 50px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		display: block;
+	}
+
+	.nav_expanded{
+		display: block;
+	}
+
+	.nav_menu{
+		margin-bottom: 10px;
+	}
+
+	iframe{
+		height: 200px;
+	}
+
+	footer .hours{
+		display: block;
+	}
+
+	section{
+		width: 80%;
+	}
+
+	.figure{
+		display: block;
+		width: 100%;
+	}
+
+	figcaption{
+		font-size: 30px;
+		margin-bottom: 100px;
+	}
+
+	.gallery{
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	.carousel-inner > .item > img{
+		width: 100%;
+		height: auto;
+		min-height: 50vh;
+		max-height: 50vh;
+	}
+
+	.gallery_items{
+		width: 200px;
+		height: 200px;
+	}
+
+	.gallery_items:hover{
+		padding: 0px;
+	}
+}
