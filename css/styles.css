@@ -58,7 +58,7 @@ header h1{
 	text-decoration: none;
 }
 
-.nav_active, .active{
+.nav_active{
 	color: black;
 }
 
