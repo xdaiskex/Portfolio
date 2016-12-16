@@ -2,34 +2,64 @@ body{
 	font-family: helvetica;
 }
 
-header{
-	color: white;
-	margin: auto;
+h1{
+	font-size: 70px;
+	color: black;
+	font-family: 'Handlee', cursive;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	text-align: center;
-	margin-bottom: 0px;
+	font-weight: bold;
 }
 
-header h1{
-	font-size: 100px;
-	color: black;
-	font-family: helvetica;
+.navbar-brand{
+	font-size: 20px;
 }
 
 .navbar-nav{
 	float: right;
 }
 
+.navbar-nav li a{
+	font-size: 20px;
+}
+
+#section1, #section2, #section3, #section4{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#section1, #section3{
+	background-color: #ECECEC;
+}
+
+section{
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+section p{
+	text-align: left;
+	font-size: 20px;
+}
+
+section h2{
+	font-size: 60px;
+	font-family: 'Handlee', cursive;
+}
+
 footer{
 	background-color: black;
 	color: white;
 	margin: auto;
-	margin-bottom: 0px;
-	padding-bottom: 10px;
 	text-align: left;
 }
 
-footer ul li:hover{
+footer ul li a:hover{
 	cursor: pointer;
+	font-weight: bold;
 }
 
 footer .foot{
@@ -50,193 +80,9 @@ footer ul li{
 	text-align: center;
 }
 
-footer .contact{
-	
-}
-
 footer .hours h3{
 	font-weight: bold;
 	font-size: 25px;
-}
-
-#myCarousel{
-	margin-top: 0px;
-	margin-bottom: 50px;
-}
-
-.carousel-inner > .item{
-	background-size: cover;
-	width: 100%;
-}
-
-.carousel-inner > .item > img{
-	background-size: cover;
-	overflow: hidden;
-	width: 100%;
-	height: auto;
-	min-height: 100vh;
-	max-height: 100vh;
-}
-
-section{
-	width: 50vw;
-	margin: auto;
-	margin-bottom: 150px;
-}
-
-iframe{
-	width: 100%;
-	height: 400px;
-	margin: auto;
-	margin-bottom: 50px;
-}
-
-section h3{
-	font-size: 30px;
-	font-weight: bold;
-}
-
-section p, li{
-	text-align: left;
-	font-size: 20px;
-}
-
-section li{
-	list-style-position: inside;
-    text-indent: -1em;
-    padding-left: 1em;
-}
-
-.interior{
-	width: 100%;
-	height: 40%;
-	margin-top: 40px;
-}
-
-section h2{
-	margin-top: 100px;
-	margin-bottom: 50px;
-	font-size: 60px;
-	/*
-	font-family: 'Handlee', cursive;
-	*/
-	font-family: 'Yesteryear', cursive;
-}
-
-.gallery{
-	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 40px;
-}
-
-figure{
-	text-align: center;
-	display: inline-block;
-	width: 33%;
-}
-
-.grow{
-	height: 200px;
-  	width: 200px;
-  	overflow: hidden;
-}
-
-.gallery_items{
-	padding: 15px;
-	height: 170px;
-	width: 170px;
-	border-radius: 50%;
-	margin: auto;
-	box-shadow: 0 0 10px rgba(0, 0, 0, .8); 
-}
-
-.gallery_items{
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-.gallery_items:hover{
-	padding: 0px;
-}
-
-
-figcaption{
-	font-size: 22px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.phone{
-	font-size: 50px;
-	text-decoration: underline;
-	font-weight: bold;
-	text-align: center;
-	color: black;
-}
-
-.phone a:hover{
-	color: #339b3a;
-}
-
-.order{
-	font-weight: bold;
-}
-
-.orderup{
-	height: 200px;
-	width: 40%;
-	display: inline-block;
-}
-
-.door{
-	margin-left: 50px;
-}
-
-.buttons{
-	text-align: center;
-}
-
-.pdf{
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-	display: inline-block;
-	text-align: center;
-}
-
-.pdf_menu{
-	display: none;
-	width: 100%;
-	text-align: center;
-}
-
-.click{
-	font-size: 25px;
-	display: inline-block;
-	text-align: center;
-}
-
-span{
-	display: inline-block;
-	text-align: center;
-}
-
-.frame{
-	display: block;
-	width: 100%;
-	height: 100vh;
-}
-
-.nav_menu ul li .black{
-	color: black;
-	font-weight: bold;
-}
-
-footer .hours ul li:hover{
-	color: white;
 }
 
 footer .hours ul li a{
@@ -244,184 +90,16 @@ footer .hours ul li a{
 	text-decoration: none;
 }
 
-footer .hours ul li a:hover{
-	font-weight: bold;
-}
-
-.designed{
-	font-size: 16px;
-	text-align: center;
-	margin-bottom: -5px;
-	margin-top: 5px;
-}
-
-.designed a{
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
-}
-
-.designed a:hover{
-	text-decoration: none;
-}
-
-.list-group-item{
-	background-color: #339b3a;
-	border: none;
-}
-
-.phone a{
-	text-decoration: none;
-	color: black;
-}
-
-.photos{
-	margin-top: 100px;
-	text-align: right;
-}
-
-.photos a{
-	color: black;
-	text-decoration: none;
-}
-
-.photos a:hover{
-	text-decoration: none;
-	color: #339b3a;
-}
-
-@media screen and (max-width: 960px){
-	.nav_menu ul li a{
-		font-size: 24px;
-	}
-
-	.nav_menu ul li{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-}
-
-@media screen and (max-width: 1040px){
-	.nav_menu ul li a{
-		padding: 10px 5px;
-	}
-
-	.gallery_items{
-		width: 140px;
-		height: 140px;
-	}
-}
-
-@media screen and (max-width: 1021px){
-	.nav_menu ul li a{
-		padding: 10px 5px;
-	}
-
-	.gallery_items{
-		width: 300px;
-		height: 300px;
-	}
-}
-
 @media screen and (max-width: 800px){
-	header h1{
-		font-size: 90px;
-	}
-
-	.nav_menu{
-		text-align: left;
-		margin-bottom: 0px;
-		width: 100%;
-	}
-
-	.nav_menu ul li{
-		width: 100%;
-		text-align: left;
-		list-style: none;
-		font-size: 30px;
-		display: inline-block;
-		padding: 20px 0px;
-	}
-
-	.nav_menu ul li a{
-		width: 100%;
-		text-align: left;
-		padding: 20px 40px;
-		text-decoration: none;
-	}
-
-	.nav_menu ul li{
-		float: none;
-		display: block;
-		text-align: left;
-		border-bottom: 2px solid white;
-		padding-left: 20px;
-	}
-
-	.nav_menu ul li a{
-		padding: 10px 0px;
-	}
-
-	.menu{
-		display: none;
-	}
-
-	.nav_menu ul li:last-child{
-		border-bottom: none;
-	}
-
-	.hamburger{
-		display: block;
-	}
-
-	.nav_expanded{
-		display: block;
-	}
-
-	iframe{
-		height: 350px;
-	}
-
 	footer .hours{
 		display: block;
 		width: 100%;
 	}
-
-	.figure{
-		display: block;
-		width: 100%;
-	}
-
-	.gallery_items{
-		height: 300px;
-		width: 300px;
-	}
-
-	h2{
-		text-align: center;
-	}
-
-	.pdf{
-		display: block;
-	}
-
-	section{
-		width: 80%;
-	}
-
-	.gallery{
-		margin: auto;
-		margin-top: 100px;
-	}
 }
 
-@media screen and (max-width: 600px){
-	.frame{
-		display: none;
-	}
-
-	.pdf_menu{
-		display: block;
+@media screen and (max-width: 768px){
+	.navbar-nav{
+		float: none;
 	}
 }
 
@@ -430,116 +108,11 @@ footer .hours ul li a:hover{
 		font-size: 60px;
 	}
 
-	section h2{
-		font-size: 40px;
-	}
-
-	.nav_menu ul li{
-		float: none;
-		display: block;
-		text-align: left;
-		border-bottom: 2px solid white;
-		padding-left: 20px;
-		font-size: 20px;
-	}
-
-	.nav_menu ul li a{
-		padding: 10px 0px;
-	}
-
-	.menu{
-		display: none;
-	}
-
-	.nav_menu ul li:last-child{
-		border-bottom: none;
-	}
-
-	.hamburger{
-		font-size: 40px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		display: block;
-	}
-
-	.nav_expanded{
-		display: block;
-	}
-
-	iframe{
-		height: 200px;
-	}
-
 	footer .hours{
 		display: block;
 	}
 
-	section{
-		width: 80%;
-	}
-
-	.figure{
-		display: block;
-		width: 100%;
-	}
-
-	figcaption{
-		font-size: 30px;
-		margin-bottom: 100px;
-	}
-
-	.gallery{
-		margin-top: 0px;
-		margin-bottom: 20px;
-	}
-
-	section h2{
-		text-align: center;
-		font-size: 50px;
-	}
-
-	.carousel-inner > .item > img{
-		width: 100%;
-		height: auto;
-		min-height: 50vh;
-		max-height: 50vh;
-	}
-
-	.gallery_items{
-		width: 200px;
-		height: 200px;
-	}
-
-	.gallery_items:hover{
-		padding: 0px;
-	}
-
 	section p{
 		font-size: 20px;
-	}
-
-	.phone{
-		font-size: 30px;
-	}
-
-	.orderup{
-		height: 130px;
-	}
-
-	section h3{
-		font-size: 22px;
-	}
-
-	ol li{
-		font-size: 18px;
-	}
-
-	.orderup{
-		height: 200px;
-		width: 100%;
-	}
-
-	.door{
-		margin-left: 0px;
 	}
 }
