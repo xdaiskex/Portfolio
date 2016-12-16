@@ -10,17 +10,13 @@ header{
 }
 
 header h1{
-	margin-top: 15px;
-	margin-bottom: 0px;
-	padding: 20px;
 	font-size: 100px;
-	color: #339b3a;
-	font-family: 'Handlee', cursive;
-	font-weight: bold;
+	color: black;
+	font-family: helvetica;
 }
 
 .nav_menu{
-	background-color: #339b3a;
+	background-color: black;
 	text-align: center;
 	width: 100%;
 	margin: auto;
@@ -37,9 +33,10 @@ header h1{
 	list-style: none;
 	font-size: 30px;
 	display: inline-block;
-	padding-top: 30px;
-	padding-bottom: 40px;
-	width: 15%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	margin: auto;
 	text-align: center;
 }
@@ -54,28 +51,21 @@ header h1{
 }
 
 .nav_menu ul li a:hover{
-	color: black;
+	font-weight: bold;
 	text-decoration: none;
 }
 
-.nav_active{
-	color: black;
-}
-
-.active{
-	color: black;
-}
-
 .hamburger{
-	width: 60px;
-	height: 50px;
+	font-size: 50px;
 	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: none;
 	cursor: pointer;
 }
 
 footer{
-	background-color: #339b3a;
+	background-color: black;
 	color: white;
 	margin: auto;
 	margin-bottom: 0px;
@@ -85,7 +75,6 @@ footer{
 
 footer ul li:hover{
 	cursor: pointer;
-	color: black;
 }
 
 footer .foot{
@@ -116,7 +105,7 @@ footer .hours h3{
 }
 
 #myCarousel{
-	margin-top: -10px;
+	margin-top: 0px;
 	margin-bottom: 50px;
 }
 
@@ -172,8 +161,11 @@ section li{
 section h2{
 	margin-top: 100px;
 	margin-bottom: 50px;
-	font-weight: bold;
-	font-size: 50px;
+	font-size: 60px;
+	/*
+	font-family: 'Handlee', cursive;
+	*/
+	font-family: 'Yesteryear', cursive;
 }
 
 .gallery{
@@ -223,12 +215,33 @@ figcaption{
 }
 
 .phone{
-	font-size: 26px;
+	font-size: 50px;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.phone a:hover{
+	color: #339b3a;
 }
 
 .order{
 	font-weight: bold;
-	font-size: 24px;
+}
+
+.orderup{
+	height: 200px;
+	width: 40%;
+	display: inline-block;
+}
+
+.door{
+	margin-left: 50px;
+}
+
+.buttons{
+	text-align: center;
 }
 
 .pdf{
@@ -262,6 +275,77 @@ span{
 	height: 100vh;
 }
 
+.nav_menu ul li .black{
+	color: black;
+	font-weight: bold;
+}
+
+footer .hours ul li:hover{
+	color: white;
+}
+
+footer .hours ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+footer .hours ul li a:hover{
+	font-weight: bold;
+}
+
+.designed{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+
+.designed a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.designed a:hover{
+	text-decoration: none;
+}
+
+.list-group-item{
+	background-color: #339b3a;
+	border: none;
+}
+
+.phone a{
+	text-decoration: none;
+	color: black;
+}
+
+.photos{
+	margin-top: 100px;
+	text-align: right;
+}
+
+.photos a{
+	color: black;
+	text-decoration: none;
+}
+
+.photos a:hover{
+	text-decoration: none;
+	color: #339b3a;
+}
+
+@media screen and (max-width: 960px){
+	.nav_menu ul li a{
+		font-size: 24px;
+	}
+
+	.nav_menu ul li{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
 @media screen and (max-width: 1040px){
 	.nav_menu ul li a{
 		padding: 10px 5px;
@@ -286,7 +370,7 @@ span{
 
 @media screen and (max-width: 800px){
 	header h1{
-		font-size: 80px;
+		font-size: 90px;
 	}
 
 	.nav_menu{
@@ -308,7 +392,6 @@ span{
 		width: 100%;
 		text-align: left;
 		padding: 20px 40px;
-		color: white;
 		text-decoration: none;
 	}
 
@@ -333,17 +416,11 @@ span{
 	}
 
 	.hamburger{
-		width: 80px;
-		height: 70px;
 		display: block;
 	}
 
 	.nav_expanded{
 		display: block;
-	}
-
-	.nav_menu{
-		margin-bottom: 10px;
 	}
 
 	iframe{
@@ -376,6 +453,11 @@ span{
 	section{
 		width: 80%;
 	}
+
+	.gallery{
+		margin: auto;
+		margin-top: 100px;
+	}
 }
 
 @media screen and (max-width: 600px){
@@ -390,7 +472,7 @@ span{
 
 @media screen and (max-width: 500px){
 	header h1{
-		font-size: 45px;
+		font-size: 60px;
 	}
 
 	section h2{
@@ -419,19 +501,14 @@ span{
 	}
 
 	.hamburger{
-		width: 60px;
-		height: 50px;
-		padding-top: 3px;
-		padding-bottom: 3px;
+		font-size: 40px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		display: block;
 	}
 
 	.nav_expanded{
 		display: block;
-	}
-
-	.nav_menu{
-		margin-bottom: 10px;
 	}
 
 	iframe{
@@ -461,8 +538,9 @@ span{
 		margin-bottom: 20px;
 	}
 
-	h2{
+	section h2{
 		text-align: center;
+		font-size: 50px;
 	}
 
 	.carousel-inner > .item > img{
@@ -479,5 +557,34 @@ span{
 
 	.gallery_items:hover{
 		padding: 0px;
+	}
+
+	section p{
+		font-size: 20px;
+	}
+
+	.phone{
+		font-size: 30px;
+	}
+
+	.orderup{
+		height: 130px;
+	}
+
+	section h3{
+		font-size: 22px;
+	}
+
+	ol li{
+		font-size: 18px;
+	}
+
+	.orderup{
+		height: 200px;
+		width: 100%;
+	}
+
+	.door{
+		margin-left: 0px;
 	}
 }
