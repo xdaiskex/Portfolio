@@ -3,13 +3,21 @@ body{
 }
 
 h1{
-	font-size: 70px;
-	color: black;
-	font-family: 'Handlee', cursive;
+	font-size: 100px;
+	color: white;
+	font-family: 'Raleway';
 	margin-top: 100px;
 	margin-bottom: 100px;
 	text-align: center;
 	font-weight: bold;
+}
+
+#Anthony{
+	background-color: black;
+}
+
+.navbar{
+	background-color: black;
 }
 
 .navbar-brand{
@@ -37,7 +45,6 @@ h1{
 
 section{
 	margin: auto;
-	margin-bottom: 100px;
 }
 
 section p{
@@ -46,8 +53,11 @@ section p{
 }
 
 section h2{
-	font-size: 60px;
-	font-family: 'Handlee', cursive;
+	font-size: 80px;
+	font-family: 'Raleway';
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 footer{
@@ -90,6 +100,31 @@ footer .hours ul li a{
 	text-decoration: none;
 }
 
+section h3{
+	font-weight: bold;
+}
+
+.col-md-4{
+	margin: auto;
+	text-align: center;
+}
+
+.col-md-4 p{
+	margin: auto;
+	text-align: center;
+}
+
+.col-md-6{
+	margin: auto;
+	text-align: center;
+}
+
+.col-md-6 p{
+	margin: auto;
+	text-align: center;
+}
+
+
 @media screen and (max-width: 800px){
 	footer .hours{
 		display: block;
@@ -108,11 +143,12 @@ footer .hours ul li a{
 		font-size: 60px;
 	}
 
-	footer .hours{
-		display: block;
-	}
-
 	section p{
 		font-size: 20px;
+	}
+
+	section h2{
+		text-align: center;
+		font-size: 50px;
 	}
 }
