@@ -124,6 +124,31 @@ section h3{
 	text-align: center;
 }
 
+section .skills{
+	font-size: 20px;
+	list-style-type: disc;
+	text-align: left;
+	margin-top: 40px;
+}
+
+section .skills2{
+	margin-top: 20px;
+}
+
+section .projects{
+	font-size: 20px;
+}
+
+section a{
+	text-decoration: none;
+	color: black;
+}
+
+section a:hover{
+	color: #52B3D9;
+	font-weight: bold;
+	text-decoration: none;
+}
 
 @media screen and (max-width: 800px){
 	footer .hours{
