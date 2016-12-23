@@ -5,11 +5,10 @@ body{
 h1{
 	font-size: 100px;
 	color: white;
-	font-family: 'Raleway';
+	font-family: 'Comfortaa';
 	margin-top: 100px;
 	margin-bottom: 100px;
 	text-align: center;
-	font-weight: bold;
 }
 
 #Anthony{
@@ -104,6 +103,12 @@ section h3{
 	font-weight: bold;
 }
 
+section h4{
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+}
+
 .col-md-4{
 	margin: auto;
 	text-align: center;
@@ -129,13 +134,21 @@ section .skills{
 	list-style-type: disc;
 	text-align: left;
 	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 section .skills2{
 	margin-top: 20px;
 }
 
+section .skills1{
+	margin-bottom: 50px;
+}
+
 section .projects{
+	font-size: 20px;
+	list-style-type: disc;
 	font-size: 20px;
 }
 
@@ -150,10 +163,34 @@ section a:hover{
 	text-decoration: none;
 }
 
+i{
+	margin-top: 30px;
+}
+
+.navbar-toggle{
+	background-color: transparent;
+	border: 1px solid white;
+}
+
+.unlimited{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
 @media screen and (max-width: 800px){
 	footer .hours{
 		display: block;
 		width: 100%;
+	}
+
+	section .skills{
+		font-size: 20px;
+		list-style-type: disc;
+		text-align: left;
+		margin-top: 40px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 }
 
@@ -170,6 +207,10 @@ section a:hover{
 
 	section p{
 		font-size: 20px;
+	}
+
+	section h1{
+		font-size: 70px;
 	}
 
 	section h2{
