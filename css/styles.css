@@ -131,18 +131,20 @@ section h4{
 
 section .skills{
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 	margin-top: 40px;
+	list-style-type: disc;
 }
 
-section .skills li{
-	list-style-type: none;
+section .skills1,.skills2{
+	margin-left: 50px;
+	margin-right: 20px;
 }
 
 section .projects{
 	font-size: 20px;
-	list-style-type: disc;
-	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
 }
 
 section a{
