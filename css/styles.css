@@ -179,6 +179,11 @@ i{
 	margin-bottom: 50px;
 }
 
+#section1 p{
+	width: 70%;
+	margin: auto;
+}
+
 @media screen and (max-width: 800px){
 	footer .hours{
 		display: block;
@@ -195,6 +200,10 @@ i{
 
 	section .skills li{
 		margin-bottom: 10px;
+	}
+
+	#section1 p{
+		width: 100%;
 	}
 }
 
