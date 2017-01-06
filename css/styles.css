@@ -58,6 +58,8 @@ section h2{
 	margin-bottom: 40px;
 	text-align: center;
 	padding-bottom: 20px;
+	display: inline-block;
+  	position: relative;
 }
 
 section h2:before{
