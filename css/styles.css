@@ -58,8 +58,11 @@ section h2{
 	margin-bottom: 40px;
 	text-align: center;
 	padding-bottom: 20px;
-	border-bottom: 3px solid black;
-	border-bottom-width: 20px;
+}
+
+section hr{
+	width: 50px;
+	height: 10px;
 }
 
 footer{
