@@ -44,6 +44,7 @@ h1{
 
 section{
 	margin: auto;
+	padding-bottom: 50px;
 }
 
 section p{
@@ -55,26 +56,14 @@ section h2{
 	font-size: 80px;
 	font-family: 'Raleway';
 	font-weight: bold;
-	margin-bottom: 40px;
 	text-align: center;
-	padding-bottom: 20px;
-	display: inline-block;
-  	position: relative;
-}
-
-section h2:before{
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 3px solid black;
 }
 
 section hr{
-	width: 50px;
-	height: 10px;
+	border-bottom: 4px solid black;
+	width: 10%;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 footer{
@@ -150,12 +139,13 @@ section .skills{
 	font-size: 20px;
 	text-align: left;
 	margin-top: 40px;
-	list-style-type: disc;
+	list-style-type: none;
+	width: 100%;
 }
 
 section .skills1,.skills2{
-	margin-left: 50px;
-	margin-right: 20px;
+	width: 100%;
+	text-align: center;
 }
 
 section .projects{
@@ -171,7 +161,6 @@ section a{
 
 section a:hover{
 	color: #52B3D9;
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -198,11 +187,14 @@ i{
 
 	section .skills{
 		font-size: 20px;
-		list-style-type: disc;
-		text-align: left;
-		margin-top: 40px;
-		margin-left: 0px;
-		margin-right: 0px;
+	}
+
+	section .skills1{
+		margin-bottom: 70px;
+	}
+
+	section .skills li{
+		margin-bottom: 10px;
 	}
 }
 
@@ -231,6 +223,6 @@ i{
 	}
 
 	section ul li{
-		font-size: 18px;
+		font-size: 20px;
 	}
 }
