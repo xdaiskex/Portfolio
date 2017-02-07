@@ -19,7 +19,7 @@ $(document).ready(function() {
 	    	}
 	    }
 	});
-	var hash = window.location.hash;
+	/*var hash = window.location.hash;
     var pageNumber = hash.substr(hash.length - 1);
     if(pageNumber <= 1){
         pageNumber = 1;
@@ -27,5 +27,5 @@ $(document).ready(function() {
         pageNumber = 1
     }
     console.log("Page: " + pageNumber);
-	$.fn.pagepiling.moveTo(pageNumber);
+	$.fn.pagepiling.moveTo(pageNumber);*/
 });
