@@ -20,8 +20,8 @@
         }else{
             var counter = pageNumber - 1;
         }
-        console.log("hash: " + hash);
-        console.log("counter: " + counter);
+        /*console.log("hash: " + hash);
+        console.log("counter: " + counter);*/
         var lastScrolledDestiny;
         var lastAnimation = 0;
         var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
@@ -560,7 +560,7 @@
                     }
                     scrollPage(section);
                     var linkNumber = sectionAnchor.substr(hash.length - 1);
-                    console.log("Page: " + linkNumber);
+                    /*console.log("Page: " + linkNumber);*/
                     counter = linkNumber;
                 }
             }
