@@ -1,0 +1,465 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: white;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+/* New CSS */
+@font-face {
+    font-family: 'haikyuu';
+    src: url('../fonts/dimitri/dimitri_-webfont.woff2') format('woff2'),
+         url('../fonts/dimitri/dimitri_-webfont.woff') format('woff'),
+         url('../fonts/dimitri/dimitri_-webfont.woff') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+nav .nav-wrapper .brand-logo{
+    font-family: 'haikyuu';
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #FF9800;
+    color: black;
+    font-size: 40px;
+}
+
+/*nav .nav-wrapper .brand-logo:hover{
+   -webkit-text-stroke-color: white;
+   transition: 1s;
+}*/
+
+nav li a{
+    font-size: 20px;
+    color: white;
+}
+
+/*
+nav li a:hover{
+    font-size: 20px;
+    background-color: #FF9800;
+    color: black;
+}
+*/
+
+/*nav li a:hover{
+    font-size: 20px;
+    box-shadow: inset 0 -5px 0 0 #FF9800; 
+    color: orange;
+    transition: .5s;
+}*/
+
+.parallax{
+    filter:brightness(50%);
+}
+
+.filler{
+    height: 300px;
+}
+
+.content{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+footer.page-footer .footer-copyright {
+    height: auto;
+}
+
+footer i{ 
+    vertical-align: middle !important; 
+}
+
+.full-height{
+    height: 90vh;
+}
+
+.full-height img{
+    filter:brightness(50%);
+}
+
+.learn{
+    background-color: #F57C00;
+}
+
+h3{
+    font-family: haikyuu;
+    color: #FF9800;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+    letter-spacing: 1px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.full{
+    height: 100%;
+}
+
+nav{
+    padding-bottom: 20px;
+}
+
+.side-nav{
+    height: auto;
+    padding-bottom: 0px;
+    width: 100%;
+    transition: 1s;
+}
+
+.side-nav li a{
+    font-size: 20px;
+}
+
+.side-nav li:hover{
+    background-color: orange;
+    transition: 1s;
+}
+
+.side-nav li .brand-logo-side:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.content p{
+    margin-bottom: 50px;
+}
+
+.anthony{
+    color: white;
+    font-weight: bold;
+}
+
+.home-btn{
+    background-color: orange;
+}
+
+/* Contact */
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.done{
+    font-size: 100px;
+}
+
+/* Team */
+.card{
+    height: auto;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.card button{
+    font-size: 20px;
+}
+
+.container3{
+    width: 80%;
+}
+
+.card-reveal{
+    position: relative;
+    z-index: 1;
+}
+
+.card-reveal .hinata{
+    background-image: url("../img/hinata.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .kageyama{
+    background-image: url("../img/kageyama.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .tsukishima{
+    background-image: url("../img/tsukishima.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .nishinoya{
+    background-image: url("../img/nishinoya.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .tanaka{
+    background-image: url("../img/tanaka.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .yamaguchi{
+    background-image: url("../img/yamaguchi.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .daichi{
+    background-image: url("../img/daichi.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .asahi{
+    background-image: url("../img/asahi.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal .sugawara{
+    background-image: url("../img/suguwara.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+
+.card-reveal p, ul li{
+    text-align: left;
+    font-size: 16px;
+    color: white !important;
+}
+
+.card-reveal .card-title{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.karasuno{
+    margin-bottom: 50px;
+}
+
+.team{
+    margin-bottom: 50px;
+}
+
+/* Gallery */
+.galleryImage{
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+
+    nav li a:hover{
+        color: black;
+        font-size: 20px;
+        box-shadow: inset 0 0 0 0 #FF9800; 
+    }
+
+    nav .nav-wrapper .brand-logo-side{
+        font-family: 'haikyuu';
+       -webkit-text-stroke-width: 2px;
+       -webkit-text-stroke-color: #FF9800;
+        color: black;
+        font-size: 40px;
+        border-bottom: 2px solid black;
+        padding-top: 5px;
+        padding-bottom: 57px;
+    }
+
+    .parallax-container2{
+        min-height: 100%;
+        height: 400px;
+    }
+
+    .card-reveal .card-title{
+        text-align: left;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card-reveal p, ul li{
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .galleryImage{
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    h4{
+        font-size: 25px;
+    }
+
+    nav .nav-wrapper .brand-logo-side{
+        font-family: 'haikyuu';
+       -webkit-text-stroke-width: 2px;
+       -webkit-text-stroke-color: #FF9800;
+        color: black;
+        font-size: 40px;
+        border-bottom: 2px solid black;
+        padding-top: 3px;
+        padding-bottom: 52px;
+    }
+
+    .content p{
+        font-size: 16px;
+    }
+
+    .parallax-container2{
+        min-height: 100%;
+        height: 300px;
+    }
+
+    .card-reveal .card-title{
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .card-reveal p, ul li{
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .galleryImage{
+        min-height: 230px;
+    }
+}
+
+

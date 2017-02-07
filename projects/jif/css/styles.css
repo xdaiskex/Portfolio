@@ -1,0 +1,228 @@
+body{
+	font-family: helvetica;
+}
+
+nav{
+	font-size: 20px;
+}
+
+nav li a{
+	color: white !important;
+}
+
+.navbar{
+	background-color: #4183D7;
+}
+
+.btn-primary{
+	background-color: #4183D7;
+}
+
+.navbar-brand{
+	font-size: 20px;
+	color: white !important;
+}
+
+footer{
+	background-color: #4183D7;
+}
+
+.center{
+	text-align: center !important;
+}
+
+.container{
+	width: 100%;
+}
+
+.container2{
+	width: 80%;
+	margin: auto;
+}
+
+.jumbotron{
+	background-color: #D2D7D3;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+html, body { 
+	overflow-x: hidden; 
+}
+
+h1{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+h2{
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.glyphicon{
+	display: block;
+	text-align: center;
+	font-size: 80px;
+}
+
+.glyphicon-thumbs-up{
+	color: #4183D7;
+}
+
+.glyphicon-thumbs-down{
+	color: #F22613;
+}
+
+.red{
+	background-color: #F22613;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.blue{
+	background-color: #4183D7;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.hard{
+	background-color: #F22613;
+}
+
+.choose{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.section1{
+	margin-top: 40px;
+}
+
+.section1 p{
+	font-size: 20px;
+}
+
+.section1 ul li{
+	text-align: center;
+	font-size: 24px;
+}
+
+.section2{
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.section3{
+	margin-bottom: 120px;
+    vertical-align: center;
+}
+
+.section3 a{
+	font-size: 40px;
+	vertical-align: center;
+}
+
+.side{
+	margin-top: 80px;
+}
+
+.bold{
+	color: black;
+	font-weight: bold;
+}
+
+hr{
+	max-width: 60px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	border-top: 3px solid #4183D7;
+}
+
+.section2 hr{
+	border-top: 3px solid white;
+}
+
+.cross{
+	text-decoration: line-through;
+}
+
+.icon-bar{
+	background-color: white !important;
+}
+
+.navbar-toggle{
+	border: 2px solid white !important;
+}
+
+.gallerySection{
+	margin-top: 100px;
+}
+
+.vid{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	height: 540px;
+}
+
+@media only screen and (max-width: 768px){
+	.nav li a{
+		box-shadow: none !important;
+		border-bottom: 1px solid white;
+	}
+
+	.nav{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.vid{
+		height: 380px;
+		margin-top: 0px;
+		margin-bottom: 100px;
+	}
+
+	.hard{
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.section1 p{
+		font-size: 18px;
+	}
+
+	.soft{
+		margin-bottom: 50px;
+	}
+
+	.jumbotron p{
+		font-size: 18px;
+	}
+
+	.container2{
+		width: 90%;
+	}
+
+	.vid{
+		height: 300px;
+		margin-top: 0px;
+		margin-bottom: 100px;
+	}
+
+	h1{
+		font-size: 56px;
+	}
+
+	.vid h2{
+		font-size: 26px;
+	}
+}

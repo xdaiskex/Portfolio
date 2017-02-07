@@ -1,0 +1,81 @@
+body{
+	font-family: helvetica;
+	padding-top: 50px;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.jumbotron{
+	background-color: black;
+	margin-bottom: 80px;
+}
+
+.navbar{
+	background-color: black;
+}
+
+.center{
+	text-align: center;
+}
+
+.request{
+	height: 70px;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.request a{
+	color: white;
+}
+
+.request a:hover{
+	text-decoration: none;
+}
+
+.contact h2{
+	font-size: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.contact label{
+	margin-bottom: 10px;
+}
+
+.contact input, textarea{
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.submit{
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+.inquiries{
+	margin-top: 100px;
+}
+
+.twitter:hover{
+	text-decoration: none;
+	font-weight: bold;
+}

@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Research in combustion, fuels, and laser diagnostics by Dr. Vasu and his students at the University of Central Florida" />
+    <meta name="keywords" content="university of central florida, ucf, combustion, alternative fuels, shock tube, shcok wave, laser diagnostics, energy, thermoscience, spectroscopy, science, mechanical, engineering, propulsion, subith vasu, research, Orlando" />
+	<meta name="distribution" content="web" />
+    <meta name="author" content="Kyle Thurmond />
+    <meta name="copyright" content="Vasu Lab" /> 
+
+    <link rel="stylesheet" media="screen" href="css/default.css" />
+	<link rel="icon" type="image/ico" href="favicon.ico"></link>
+	<link rel="shortcut icon" href="favicon.ico"></link>
+    <title>VASU LAB: Combustion, Propulsion, Laser Diagnostics & Absorption Sensors, and Fuels</title>
+	  	</head>
+
+<body>
+<div id="contain">
+<div class="pb">
+	<!--Title-->
+	<div id="title">
+		<img src="img/ucfemb.png" id="ucfemb" />
+	<br />
+		<a href="?" id="titletext">VASU LAB: Combustion, Propulsion, Laser Diagnostics & Absorption Sensors, and Fuels</a>
+	</div>
+	<!--Nav Bar-->
+	<div id="nav">
+		<a href="?news" class="buttonlink"><div class="button">		   LATEST NEWS	<br />    		</div></a><br /> 
+		<a href="?people" class="buttonlink"><div class="button">		    PEOPLE  	<br /> 		</div></a><br /> 
+		<a href="?facility" class="buttonlink"><div class="button">		    FACILITIES	<br />   		</div></a><br /> 
+		<a href="?research" class="buttonlink"><div class="button">		    RESEARCH  	<br /> 		</div></a><br /> 
+		<a href="?teaching" class="buttonlink"><div class="button">		    TEACHING  	<br />  		</div></a><br /> 
+		<a href="?publications" class="buttonlink"><div class="button">		    PUBLICATIONS	<br />    		</div></a><br /> 
+		<a href="?links" class="buttonlink"><div class="button">		    EXTERNAL LINKS  	<br />   		</div></a><br /> 
+	</div>
+	<!--Main Body-->
+	<div id="main">
+		
+		<!--Foot-->
+	<div id="foot">
+		<a href="http://mae.ucf.edu/" class="smallprint">UCF Department of Mechanical and Aerospace Engineering</a>
+		<br/>
+		<br />		<!-- hitwebcounter Code START --><a href="http://www.hitwebcounter.com" target="_blank"><img src="http://hitwebcounter.com/counter/counter.php?page=6304802&style=0001&nbdigits=9&type=page&initCount=10786" title="Counter for tumblr" Alt="Counter for tumblr"   border="0" ></a>                                        <br/>                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Website Stats"                                         target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif;                                         font-size: 10px; color: #63766C; text-decoration: none ;"><strong>Website Stats                                        </strong>                                        </a>    <br /><br /> 
+	</div>
+	</div>
+	
+ </div>
+ </div>
+ </body>
+</html>
+
