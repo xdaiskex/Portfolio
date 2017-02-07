@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-    <meta charset = "UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Anthony Nguyen - Portfolio </title> 
-    <style type = "text/css"> 
-        @import url("css/reset.css");  
-        @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); 
-        @import url("https://fonts.googleapis.com/css?family=Raleway|Comfortaa");
-        @import url("font-awesome/css/font-awesome.css"); 
-        @import url("css/styles.css"); 
-    </style> 
-    <script type="text/javascript" src = "js/jquery.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anthony Nguyen</title>
+
+	<!-- Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<!-- Latest compiled and minified Materialize CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  	<!-- Icons -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Page Piling -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+
+	<!-- Google Fonts Raleway -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<!-- Google Fonts Quicksand -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Google Analytics -->
+	<script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -26,256 +38,170 @@
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                </button>
-                <a class="navbar-brand" href="#Anthony">Anthony Nguyen</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#section1">About</a></li>
-                    <li><a href="#section2">Skills</a></li>
-                    <li><a href="#section3">Projects</a></li>
-                    <li><a href="#section4">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>    
+	<header>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper container">
+					<a href="#" class="brand-logo">Anthony Nguyen</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse">
+						<i class="material-icons">menu</i>
+					</a>
+					<ul id="menu" class="right hide-on-med-and-down pileMenu">
+						<li data-menuanchor="page1" class="active">
+							<a href="#page1">About</a>
+						</li>
+						<li data-menuanchor="page2">
+							<a href="#page2">Skills</a>
+						</li>
+						<li data-menuanchor="page3">
+							<a href="#page3">Projects</a>
+						</li>
+						<li data-menuanchor="page4">
+							<a href="#page4">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 
-    <section>
-        <div id="Anthony" class="container-fluid">
-            <h1>Welcome</h1>
-        </div>
-        <div id="section1" class="container-fluid">
-            <h2>About</h2>
-            <hr>
-            <ul class="unlimited">
-                <li>
-                    I am the bone of my code
-                </li>
-                <li>
-                    Sugar is my body and coffee is my blood
-                </li>
-                <li>
-                    I have created over a thousand lines of code
-                </li>
-                <li>
-                    Unknown to sleep
-                </li>
-                <li>
-                    Nor known to rest
-                </li>
-                <li>
-                    Have withstood pain to create many websites
-                </li>
-                <li>
-                    Yet these hands will never hold stable income
-                </li>
-                <li>
-                    So as I pray
-                </li>
-                <li>
-                    Unlimited code works
-                </li>
-            </ul>
-            <p>
-                Hello and welcome to my website. My name is Anthony Nguyen and I am currently a senior in college pursuing a bachelors for web design. For anyone that is able to get the reference above, that should tell you all about me as a person.  
-            </p>
-            <br> 
-            <p>
-                The best way to contact me would be through email or text. Please include a brief description of what it is that you are looking for and I will reply back to you as soon as possible.
-            </p>
-        </div>
+		<ul class="side-nav" id="mobile-demo">
+	        <li data-menuanchor="page1" class="active">
+				<a href="#page1">About</a>
+			</li>
+			<li data-menuanchor="page2">
+				<a href="#page2">Skills</a>
+			</li>
+			<li data-menuanchor="page3">
+				<a href="#page3">Projects</a>
+			</li>
+			<li data-menuanchor="page4">
+				<a href="#page4">Contact</a>
+			</li>
+	  	</ul>
+	</header>
 
-        <div id="section2" class="container-fluid">
-            <h2>Skills</h2>
-            <hr>
-            <div class="col-md-6">
-                <i class="fa fa-magic fa-4x"></i>
-                <h3>Front End</h3>
-                <ul class="skills skills1">
-                    <li>
-                        <h4>HTML</h4>
-                        <ul>
-                            <li>
-                                100% validated, semantically written HTML
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>CSS</h4>
-                        <ul>
-                            <li>
-                                Built from scratch or with CSS frameworks
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>JavaScript</h4>
-                        <ul>
-                            <li>
-                                DOM scripting and dynamic site interactions
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+	<div id="pagepiling">
+		<div class="section" id="section1">
+			<div class="container">
+				<div class="row">
+					<h2 class="center white-text">HELLO</h2>
+					<!-- <hr> -->
+					<p class="col s12 m10 offset-m1 aboutText white-text">
+						...and welcome to my website. My name is Anthony Nguyen and all I do is Nguyen Win Nguyen no matter what. If there's one thing I love more than puns, it's destruction. I love breaking things, and this site is no exception.
+						<br><br>
+						Please do not let the text above scare you into moving your mouse towards the top right corner of the screen. If anything, at least scroll down and look at the chart that I made using d3 and 4 sessions of intensive therapy.
+					</p>
+				</div>
+			</div>
+			<img src="img/hand2.png" alt="hand" class="hand">
+		</div>
 
-            <div class="col-md-6">
-                <i class="fa fa-wrench fa-4x"></i>
-                <h3>Back End</h3>
-                <ul class="skills">
-                    <li class="skills2">
-                        <h4>PHP</h4>
-                        <ul>
-                            <li>
-                                User input storage and validation for security 
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="skills2">
-                        <h4>MySQL</h4>
-                        <ul>
-                            <li>
-                                CRUD database functions and table manipulation
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="skills2">
-                        <h4>phpMyAdmin</h4>
-                        <ul>
-                            <li>
-                                Highly familiar with interface and processes
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
+		<div class="section" id="section2">
+			<div class="container">
+				<div class="row center">
+					<h2>SKILLS</h2>
+					<!-- <hr> -->
+					<a class="btn btn-large waves-effect waves-light blue" id="front">Front End</a>
+					<a class="btn btn-large waves-effect waves-light red" id="back">Back End</a>
+					<div id="charts">
+						<div id="chart" class="col s12 center"></div>
+						<div id="chart2" class="col s12 center"></div>
+					</div>
+				</div>
+			</div>
+			<img src="img/hand2.png" alt="hand" class="hand2">
+			<img src="img/hand.png" alt="hand" class="hands">
+		</div>
 
-        <div id="section3" class="container-fluid">
-            <h2>Projects</h2>
-            <hr>
-            <div class="col-md-6">
-                <i class="fa fa-reply fa-4x"></i>
-                <h3>Past Projects</h3>
-                <ul class="projects">
-                    <li>
-                        <h4>Viet Garden</h4>
-                        <br>
-                        <a href="https://web.archive.org/web/20150511154732/http://www.vietgardenorlando.com/">Old site,</a>
-                        <a href="http://vietgardenorlando.com">New site</a>
-                    </li>
-                </ul>
-            </div>
+		<div class="section" id="section3">
+			<div class="container">
+				<div class="row center">
+					<h2 class="center white-text">PROJECTS</h2>
+					<!-- <hr> -->
+					<div class="carousel col m12">
+						<div class="carousel-item">
+							<a href="http://sulley.cah.ucf.edu/~an103674/dig4503/ass1/">
+								<img src="img/haikyuu3.png" alt="Haikyuu">
+							</a>
+							<a href="http://sulley.cah.ucf.edu/~an103674/dig4503/ass1/" class="btn btn-large waves-effect waves-light orange black-text">Website Link</a>
+						</div>
+						<div class="carousel-item">
+							<a href="http://vietgardenorlando.com">
+								<img src="img/viet2.png" alt="Viet">
+							</a>
+							<a href="http://vietgardenorlando.com" class="btn btn-large waves-effect waves-light green black-text">Website Link</a>
+						</div>
+						<div class="carousel-item">
+							<a href="http://sulley.cah.ucf.edu/~an103674/other/gif/">
+								<img src="img/jif.png" alt="Jif">
+							</a>
+							<a href="http://sulley.cah.ucf.edu/~an103674/other/gif/" class="btn btn-large waves-effect waves-light blue black-text">Website Link</a>
+						</div>
+						<div class="carousel-item">
+							<a href="http://sulley.cah.ucf.edu/~an103674/other/vasa/">
+								<img src="img/vasu.png" alt="Vasu">
+							</a>
+							<a href="http://sulley.cah.ucf.edu/~an103674/other/vasa/" class="btn btn-large waves-effect waves-light grey black-text">Website Link</a>
+						</div>
+						<div class="carousel-item">
+							<a href="http://sulley.cah.ucf.edu/~an103674/other/border/">
+								<img src="img/security.png" alt="Security">
+							</a>
+							<a href="http://sulley.cah.ucf.edu/~an103674/other/border/" class="btn btn-large waves-effect waves-light black white-text">Website Link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="img/hand2.png" alt="hand" class="hand3">
+			<img src="img/hand.png" alt="hand" class="hands2">
+		</div>
 
-            <div class="col-md-6">
-                <i class="fa fa-share fa-4x"></i>
-                <h3>Current Projects</h3>
-                <ul class="projects">
-                    <li>
-                        <h4>VASU Lab</h4>
-                        <br>
-                        <a href="http://www.mae.ucf.edu/mmae/Research/VasuLab/?news">Old site,</a>
-                        <a href="http://sulley.cah.ucf.edu/~an103674/zack/">New site</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+		<div class="section" id="section4">
+			<div class="container">
+				<div class="row center">
+					<h2>CONTACT</h2>
+					<a class="waves-effect waves-light btn btn-large blue phone ">
+						<i class="material-icons left">phone</i>
+						Phone
+					</a>
+					<a class="waves-effect waves-light btn btn-large red email">
+						<i class="material-icons left">email</i>
+						Email
+					</a>
+				</div>
+				<div class="row center">
+					<div class="contact">
+						<i class="material-icons col s12 contact2">phone</i>
+						<p class="contactInfo"></p>
+					</div>
+				</div>
+			</div>
+			<img src="img/hand.png" alt="hand" class="hands3">
+		</div>
+	</div>
 
-        <div id="section4" class="container-fluid">
-            <h2>Contact</h2>
-            <hr>
-            <div class="col-md-4">
-                <i class="fa fa-phone fa-4x"></i>
-                <h3>Phone</h3>
-                <p>321-314-3325</p>
-            </div>
+	<!--  jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-            <div class="col-md-4">
-                <i class="fa fa-envelope fa-4x"></i>
-                <h3>Email</h3>
-                <p>anthonypn93@gmail.com</p>
-            </div>
+    <!-- Latest compiled and minified Materialize JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
-            <div class="col-md-4">
-                <i class="fa fa-facebook-official fa-4x"></i>
-                <h3>Social</h3>
-                <p><a href="https://www.facebook.com/anthony.ngooyen">Facebook</a></p>
-            </div>
-        </div>
-    </section>
-    <!--
-    <footer>
-        <div class = "foot">
-            <div class = "hours">
-                <h3> Footer 1 </h3>
-                <ul>
-                    <li> Sun-Thur: 10am-9pm </li>
-                    <li> Fri-Sat: 10am-10pm </li>
-                </ul>
-            </div>
-            <div class = "hours contact">
-                <h3> Contact </h3>
-                <ul>
-                    <li>
-                        <i class="fa fa-envelope fa-fw" aria-hidden="true"></i> 
-                        anthonypn93@gmail.com
-                    </li>
-                    <li>
-                        <i class="fa fa-phone fa-fw" aria-hidden="true"></i>
-                        321-314-3325
-                    </li>
-                </ul>
-            </div>
-            <div class = "hours">
-                <h3> Social </h3>
-                <ul>
-                    <li>
-                        <i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>
-                        <a href="https://www.facebook.com/anthony.ngooyen"> Facebook </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-google-plus-square fa-fw" aria-hidden="true"></i>
-                        <a href="https://plus.google.com/103472817673239149891"> Google+ </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
--->
-    <script>
-        $(document).ready(function(){
-            // Add scrollspy to <body>
-            $('body').scrollspy({target: ".navbar", offset: 50});   
+  	<!-- Init -->
+  	<script src="js/init.js"></script>
 
-            // Add smooth scrolling on all links inside the navbar
-            $("#myNavbar a").on('click', function(event) {
-            // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
+  	<!-- D3 -->
+  	<script src="https://d3js.org/d3.v3.min.js"></script>
 
-                    // Store hash
-                    var hash = this.hash;
+  	<!-- Custom D3 -->
+  	<script src="js/d3_skills.js"></script>
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function(){
-       
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                }  // End if
-            });
-        });
-    </script>
+  	<!-- Page Piling -->
+  	<script src="js/jquery.pagepiling.js"></script>
+
+  	<!-- Page Piling2 -->
+  	<script src="js/pagepile.js"></script>
+
+  	<!-- Custom jQuery -->
+  	<script src="js/jquery.js"></script>
 </body>
 </html>

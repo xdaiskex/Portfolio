@@ -1,237 +1,202 @@
-body{
-	font-family: helvetica;
-}
-
-h1{
-	font-size: 100px;
-	color: white;
-	font-family: 'Comfortaa';
-	margin-top: 100px;
-	margin-bottom: 100px;
-	text-align: center;
-}
-
-#Anthony{
+nav{
 	background-color: black;
 }
 
-.navbar{
-	background-color: black;
-}
-
-.navbar-brand{
-	font-size: 20px;
-}
-
-.navbar-nav{
-	float: right;
-}
-
-.navbar-nav li a{
-	font-size: 20px;
-}
-
-#section1, #section2, #section3, #section4{
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-#section1, #section3{
-	background-color: #ECECEC;
-}
-
-section{
-	margin: auto;
-	padding-bottom: 50px;
-}
-
-section p{
-	text-align: left;
-	font-size: 20px;
-}
-
-section h2{
-	font-size: 80px;
-	font-family: 'Raleway';
+nav .brand-logo{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-	text-align: center;
 }
 
-section hr{
-	border-bottom: 4px solid black;
-	width: 10%;
-	margin-top: 20px;
-	margin-bottom: 50px;
+nav ul li a{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
 }
 
 footer{
-	background-color: black;
+	background-color: #4183D7 !important;
+}
+
+.space{
+	height: 300px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.parallax-container{
+	height: 90vh;
+}
+
+.parallax-container .parallax img{
+	filter: brightness(40%);
+}
+
+.parallax-container section{
+	width: 100%;
+}
+
+.parallax-container .btn-large{
+	background-color: #4183D7 !important;
+}
+
+.side-nav{
+	width: 200px !important;
+}
+
+hr{
+	max-width: 50px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+	border: 3px solid black;
+}
+
+#charts{
+	margin-bottom: 100px;
+}
+
+/*h2{
+	margin-top: 0px;
 	color: white;
-	margin: auto;
-	text-align: left;
-}
+	-webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}*/
 
-footer ul li a:hover{
-	cursor: pointer;
-}
-
-footer .foot{
-	width: 100%;
-	margin: auto;
-	text-align: center;
-}
-
-footer .hours{
-	padding-top: 20px;
-	font-size: 20px;
-	padding-bottom: 20px;
-	display: inline-block;
-	width: 30%;
-}
-
-footer ul li{
-	text-align: center;
-}
-
-footer .hours h3{
-	font-weight: bold;
-	font-size: 25px;
-}
-
-footer .hours ul li a{
-	color: white;
-	text-decoration: none;
-}
-
-section h3{
-	font-weight: bold;
-}
-
-section h4{
-	font-weight: bold;
-	font-size: 20px;
-	display: inline-block;
-}
-
-.col-md-4{
-	margin: auto;
-	text-align: center;
-}
-
-.col-md-4 p{
-	margin: auto;
-	text-align: center;
-}
-
-.col-md-6{
-	margin: auto;
-	text-align: center;
-}
-
-.col-md-6 p{
-	margin: auto;
-	text-align: center;
-}
-
-section .skills{
-	font-size: 20px;
-	text-align: left;
-	margin-top: 40px;
-	list-style-type: none;
-	width: 100%;
-}
-
-section .skills1,.skills2{
-	width: 100%;
-	text-align: center;
-}
-
-section .projects{
-	font-size: 20px;
-	text-align: center;
-	margin-top: 40px;
-}
-
-section a{
-	text-decoration: none;
+h2{
+	margin-top: 0px;
 	color: black;
+	font-family: 'Quicksand', sans-serif;
 }
 
-section a:hover{
-	color: #52B3D9;
-	text-decoration: none;
+.hand, .hand2, .hand3{
+	height: 60vh;
+	float: right;
+	transform: rotate(40deg);
+	position: absolute;
+	right: 200px;
+	bottom: -400px;
+	display: none;
 }
 
-i{
-	margin-top: 30px;
+.hands, .hands2, .hands3{
+	height: 60vh;
+	float: right;
+	position: absolute;
+	left: -130px;
+	bottom: -100px;
+	display: none;
 }
 
-.navbar-toggle{
-	background-color: transparent;
-	border: 1px solid white;
+.hands, .hands2, .hands3 {
+    -webkit-transition: all 1500ms cubic-bezier(0.250, 0.085, 0.000, 0.990);
+    -moz-transition: all 1500ms cubic-bezier(0.250, 0.085, 0.000, 0.990);
+    -o-transition: all 1500ms cubic-bezier(0.250, 0.085, 0.000, 0.990);
+    transition: all 1500ms cubic-bezier(0.250, 0.185, 0.000, 0.990);
+    /* custom */
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.085, 0.000, 0.990);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.085, 0.000, 0.990);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.085, 0.000, 0.990);
+    transition-timing-function: cubic-bezier(0.250, 0.185, 0.000, 0.990);
+    /* custom */
 }
 
-.unlimited{
-	font-size: 24px;
-	text-align: center;
+#menu .active{
+	box-shadow: inset 0 -8px 0 0 white;
+}
+
+.carousel{
+	margin-top: -140px;
+	height: 550px;
+}
+
+.carousel-item img{
+	height: 300px;
+	box-shadow: 0px 0px 15px 2px black;
+}
+
+.carousel a{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.pp-tooltip{
+	color: black !important;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.material-icons{
+	font-size: 120px;
 	margin-bottom: 50px;
 }
 
-#section1 p{
-	width: 70%;
-	margin: auto;
+.phone, .email{
+	margin-bottom: 20px;
 }
 
-@media screen and (max-width: 800px){
-	footer .hours{
-		display: block;
-		width: 100%;
+.contact{
+	display: none;
+}
+
+.contactInfo{
+	font-size: 30px;
+	margin-top: 60px;
+}
+
+.aboutText{
+	margin-top: 50px;
+	font-size: 28px;
+	line-height: 35px;
+}
+
+@media only screen and (max-width: 900px) {
+	.carousel{
+		margin-top: -100px;
+		height: 500px;
 	}
 
-	section .skills{
-		font-size: 20px;
+	.carousel-item img{
+		height: 250px;
+		box-shadow: 0px 0px 15px 2px black;
 	}
-
-	section .skills1{
-		margin-bottom: 70px;
-	}
-
-	section .skills li{
-		margin-bottom: 10px;
-	}
-
-	#section1 p{
-		width: 100%;
+	.aboutText{
+		margin-top: 50px;
+		font-size: 24px;
+		line-height: 30px;
 	}
 }
 
-@media screen and (max-width: 768px){
-	.navbar-nav{
-		float: none;
-	}
-}
-
-@media screen and (max-width: 500px){
-	header h1{
-		font-size: 40px;
-	}
-
-	section p{
+@media only screen and (max-width: 600px) {
+	.aboutText{
+		margin-top: 30px;
+		line-height: 25px;
 		font-size: 18px;
 	}
 
-	section h1{
-		font-size: 70px;
+	.carousel{
+		height: 500px;
+		padding-right: 20px;
+		padding-left: 20px;
 	}
 
-	section h2{
-		text-align: center;
-		font-size: 50px;
+	.carousel-item img{
+		height: 230px;
+		width: 150px !important;
+		box-shadow: 0px 0px 15px 2px black;
 	}
 
-	section ul li{
-		font-size: 20px;
+	h2{
+		margin-top: 0px;
+	}
+
+	.material-icons{
+		font-size: 100px;
+		margin-bottom: 30px;
+	}
+	.contactInfo{
+		font-size: 24px;
+		margin-top: 50px;
 	}
 }
