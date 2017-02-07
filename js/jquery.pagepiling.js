@@ -12,7 +12,7 @@
     $.fn.pagepiling = function (custom) {
         var PP = $.fn.pagepiling;
         var container = $(this);
-        var hash = window.location.hash;
+        var hash = window.location.hash.substr(1);
         var pageNumber = hash.substr(hash.length - 1);
         var counter = 1;
         if(pageNumber <= 1){
@@ -383,8 +383,8 @@
             var timeNow = new Date().getTime();
             lastAnimation = timeNow;
 
-            console.log("counter: " + counter);
-        }
+/*            console.log("counter: " + counter);
+*/        }
 
         /**
         * Performs the movement (by CSS3 or by jQuery)
@@ -560,7 +560,7 @@
                     }
                     scrollPage(section);
                     var linkNumber = sectionAnchor.substr(hash.length - 1);
-                    console.log("section: " + linkNumber);
+                    console.log("Page: " + linkNumber);
                     counter = linkNumber;
                 }
             }
