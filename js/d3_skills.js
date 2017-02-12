@@ -2,10 +2,10 @@ var frontVisible = false;
 var backVisible = false;
 var axisOn = true;
 var myData2 = ['HTML', 'CSS', 'jQuery', 'JS', 'Bootstrap'];
-var myData3 = ['PHP', 'MyAdmin', 'SQL', 'CRUD', 'Node'];
+var myData3 = ['PHP', 'MyAdmin', 'SQL', 'AJAX', 'Node'];
 
 var myData22 = ['HTML', 'CSS', 'jQuery', 'JavaScript', 'Bootstrap'];
-var myData33 = ['PHP', 'phpMyAdmin', 'MySQL', 'CRUD', 'Node'];
+var myData33 = ['PHP', 'phpMyAdmin', 'MySQL', 'AJAX', 'Node'];
 
 var myData4 = ['Bad', 'Decent', 'Good', 'Great', 'Really great', 'Really really great'];
 var myData5 = ['0', '1', '2', '3', '4', '5'];
