@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Haikyuu - Gallery</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/lightbox.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="black activator">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo">Haikyuu</a>
+                <!-- Desktop Menu -->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html" class="desktop-nav">Home</a></li>
+                    <li><a href="team.html" class="desktop-nav">Team</a></li>
+                    <li><a href="gallery.html" class="desktop-nav">Gallery</a></li>
+                    <li><a href="contact.php" class="desktop-nav">Contact</a></li>
+                </ul>
+                <!-- Mobile Menu -->
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#" class="brand-logo-side center">Haikyuu</a><li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container container3">
+        <div class="row content team">
+            <h3 class="center karasuno">Gallery</h3>
+            <a href="img/hinata.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/hinata2.png" alt="haikyuu" class="hinata1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/kageyama.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/kageyama2.png" alt="haikyuu" class="kageyama1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/tsukishima.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/tsukishima2.png" alt="haikyuu" class="tsukishima1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/nishinoya.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/nishinoya2.png" alt="haikyuu" class="nishinoya1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/tanaka.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/tanaka2.png" alt="haikyuu" class="tanaka1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/yamaguchi.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/yamaguchi2.png" alt="haikyuu" class="yamaguchi1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/asahi.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/asahi2.png" alt="haikyuu" class="asahi1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/daichi.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/daichi2.png" alt="haikyuu" class="daichi1 galleryImage col s12 m6 l4">
+            </a>
+            <a href="img/suguwara.gif" data-lightbox="gallery" data-title="Haikyuu">
+                <img src="img/suguwara2.png" alt="haikyuu" class="suguwara1 galleryImage col s12 m6 l4">
+            </a>
+        </div>
+    </div>
+
+    <footer class="page-footer black activator">
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="center">
+                    Designed by 
+                    <a class="text-lighten-3 anthony" href="http://anthonywin.com">Anthony Nguyen</a>
+                </p>
+                <p class="center">
+                    <i class="material-icons">error_outline</i>
+                    All Media used on this website is used for the purpose of entertainment and education.
+                    Under the terms of fair use all footage and images belong to their respective owners.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src='js/gifs.js'></script>
+    <script src='js/lightbox.js'></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 500,
+          'fitImagesInViewport': true,
+          'alwaysShowNavOnTouchDevices': true,
+          'wrapAround': true,
+          'maxWidth': 440,
+          'positionFromTop': 170,
+          'disableScrolling': true
+        })
+    </script>
+</body>
+</html>
