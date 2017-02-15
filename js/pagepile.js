@@ -4,10 +4,11 @@ $(document).ready(function() {
 		menu: '#menu',
 		anchors: ['page1', 'page2', 'page3', 'page4'],
 	    sectionsColor: ['#022D41', '#D2D7D3', '#022D41', '#D2D7D3'],
-	    navigation: {
+/*	    navigation: {
 	    	'position': 'right',
 	   		'tooltips': ['About', 'Skills', 'Projects', 'Contact']
-	   	},
+	   	},*/
+	   	navigation: false,
 	    afterRender: function(){
 	    	$('#pp-nav').addClass('custom');
 	    },
