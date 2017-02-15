@@ -114,13 +114,14 @@ h2{
 }
 
 .carousel{
-    margin-top: -140px;
+    margin-top: 0px;
     height: 550px;
 }
 
 .carousel-item img{
     height: 300px;
     box-shadow: 0px 0px 15px 2px black;
+    margin-top: -150px;
 }
 
 .carousel a{
@@ -163,17 +164,11 @@ h2{
 	margin-bottom: 10px;
 }
 
+.resume{
+	border: 2px solid black;
+}
 
 @media only screen and (max-width: 1100px) {
-    .carousel{
-        margin-top: -100px;
-        height: 500px;
-    }
-
-    .carousel-item img{
-        height: 250px;
-        box-shadow: 0px 0px 15px 2px black;
-    }
     .aboutText{
         margin-top: 50px;
         font-size: 24px;
@@ -214,6 +209,7 @@ h2{
         height: 230px;
         width: 150px !important;
         box-shadow: 0px 0px 15px 2px black;
+        margin-top: -100px;
     }
 
     h2{

@@ -27,12 +27,45 @@ $(document).ready(function(){
 	$('.phone').click(function(){
 		$('.contact2').html("phone");
 		$('.contact').css("display", "block");
-		$('.contactInfo').html("321-314-3325<br><br>(Text > Call)");
+		$('.contactInfo').html("321-314-3325<br><br>*Text > Call*");
 	});
 
 	$('.email').click(function(){
 		$('.contact2').html("email");
 		$('.contact').css("display", "block");
-		$('.contactInfo').html("anthonypn93@gmail.com<br><br>(Include name/subject)");
+		$('.contactInfo').html("anthonypn93@gmail.com<br><br>*Include name/subject*");
 	});
+
+	$(".side-nav li").hover(function(){
+    	$(this).css("background-color", "black");
+    	$(this).css("transition", "1s");
+    },
+    function(){
+    	$(this).css("background-color", "white");
+    	$(this).css("transition", "1s");
+    });
+
+    $(".side-nav li a").hover(function(){
+    	$(this).css("color", "white");
+    	$(this).css("transition", "1s");
+    },
+    function(){
+    	$(this).css("color", "black");
+    	$(this).css("transition", "1s");
+    });
+
+    $(".resume").hover(function(){
+    	$(this).removeClass("white");
+    	$(this).removeClass("black-text");
+    	$(this).addClass("black");
+    	$(this).addClass("white-text");
+    	$(this).css("transition", ".5s");
+    },
+    function(){
+    	$(this).removeClass("black");
+    	$(this).removeClass("white-text");
+    	$(this).addClass("white");
+    	$(this).addClass("black-text");
+    	$(this).css("transition", ".5s");
+    });
 });
