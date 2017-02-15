@@ -44,6 +44,12 @@ footer{
     width: 200px !important;
 }
 
+nav .side-nav li a{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
 hr{
     max-width: 50px;
     margin-top: -20px;
@@ -150,13 +156,6 @@ h2{
     margin-top: 50px;
     font-size: 28px;
     line-height: 35px;
-}
-
-header {
-   width: 100%;
-   position: fixed;
-   top: 0;
-   z-index: 100;
 }
 
 @media only screen and (max-width: 1100px) {
