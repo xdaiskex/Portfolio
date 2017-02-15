@@ -41,7 +41,7 @@ footer{
 }
 
 .side-nav{
-    width: 200px !important;
+    width: 100vw !important;
 }
 
 nav .side-nav li a{
