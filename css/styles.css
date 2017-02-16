@@ -50,6 +50,17 @@ nav .side-nav li a{
     font-weight: bold;
 }
 
+.resume{
+    font-size: 18px !important;
+    border: 2px solid white;
+    font-family: Roboto !important;
+    font-weight: normal !important;
+}
+
+.profile2{
+    padding-bottom: 20px;
+}
+
 hr{
     max-width: 50px;
     margin-top: -20px;

@@ -53,4 +53,20 @@ $(document).ready(function(){
     	$(this).css("color", "black");
     	$(this).css("transition", ".25s");
     });
+
+    //Resume button change on hover
+    $(".resume").hover(function(){
+    	$(this).removeClass("black");
+    	$(this).removeClass("white-text");
+    	$(this).addClass("white");
+    	$(this).addClass("black-text");
+    	$(this).css("transition", "1s");
+    },
+    function(){
+    	$(this).removeClass("white");
+    	$(this).removeClass("black-text");
+    	$(this).addClass("black");
+    	$(this).addClass("white-text");;
+    	$(this).css("transition", "1s");
+    });
 });
