@@ -61,15 +61,6 @@ hr{
     margin-bottom: 100px;
 }
 
-/*h2{
-    margin-top: 0px;
-    color: white;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
-    font-weight: bold;
-    font-family: 'Righteous', cursive;
-}*/
-
 h2{
     margin-top: 0px;
     color: black;
@@ -162,10 +153,6 @@ h2{
 .profile{
 	margin-top: 30px;
 	margin-bottom: 10px;
-}
-
-.resume{
-	border: 2px solid black;
 }
 
 @media only screen and (max-width: 1100px) {
