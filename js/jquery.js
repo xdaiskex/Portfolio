@@ -69,4 +69,22 @@ $(document).ready(function(){
     	$(this).addClass("white-text");;
     	$(this).css("transition", "1s");
     });
+
+    //zoom and flipInX and tada
+
+    var counter = 0;
+
+    $("#front").click(function(){
+        if(counter != 1){
+           $("#chart").animateCss("rubberBand"); 
+        }
+        counter = 1;
+    });
+
+    $("#back").click(function(){
+        if(counter != 2){
+           $("#chart2").animateCss("rubberBand"); 
+        }
+        counter = 2;
+    });
 });
