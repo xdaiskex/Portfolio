@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Just Chews</title>
+
+	<!-- Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<!-- Latest compiled and minified Materialize CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  	<!-- Icons -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="navbar-fixed">
+			<nav class="red">
+				<div class="nav-wrapper container">
+					<a href="#title" class="brand-logo">Just Chews</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse">
+						<i class="material-icons">menu</i>
+					</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down desktop-nav">
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#first">Choose</a>
+						</li>
+						<li>
+							<a href="#second">Pick</a>
+						</li>
+						<li>
+							<a href="#third">Decide</a>
+						</li>
+						<li>
+							<a href="#fourth">Eat</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<ul class="side-nav" id="mobile-demo">
+	        <li>
+				<a href="#about">About</a>
+			</li>
+			<li>
+				<a href="#first">Choose</a>
+			</li>
+			<li>
+				<a href="#second">Pick</a>
+			</li>
+			<li>
+				<a href="#third">Decide</a>
+			</li>
+			<li>
+				<a href="#fourth">Eat</a>
+			</li>
+	  	</ul>
+	</header>
+
+	<div class="parallax-container valign-wrapper" id="title">
+        <div class="container center">
+            <div class="row">
+                <div class="tricker">
+                	<h4 class="white-text">Are you hungry?</h4>
+                	<h4 class="white-text">Thinking about going out?</h4>
+                	<h4 class="white-text">Is the background picture relevant?</h4>
+                	<h4 class="white-text">Am I asking too many questions?</h4>
+                	<h4 class="white-text">Why are you still reading this?</h4>
+                	<h4 class="white-text">If you're short on time, just click the button</h4>
+                	<h4 class="white-text">Otherwise this will keep looping and ask</h4>
+  				</div>
+            </div>
+            <div class="row">
+                <a href="#about" class="btn-large waves-effect waves-light red white-text bold">Get Started</a>
+            </div>
+            <br><br>
+        </div>
+        <div class="parallax">
+            <img src="img/couple.jpg" alt="coffee" class="responsive-img">
+        </div>
+    </div>
+
+    <div id="about" class="container space">
+		<div class="row">
+			<h2 class="center eat">"Where should we go eat?"</h2>
+			<p>
+				This question has haunted mankind for decades. "I don't care", "you choose this time", "we went to chipotle yesterday, do you want me to get fat". These are the responses you will receive 99% of the time when asking this question. The other 1% is McDonald's.
+			</p>
+			<p>
+				That is why we decided to make it easier for you. This site helps you pick a restaurant using both you and your partner/partners' preferences. You both have a say in the outcome so neither of you can get angry at each other and you no longer have to sleep on the couch.
+			</p>
+		</div>
+		<div class="row center">
+            <a href="#first" class="btn-large waves-effect waves-light red white-text bold">Stop talking, I'm Hungry</a>
+        </div>
+	</div>
+
+	<div id="first" class="container space">
+		<div class="row">
+			<h2>1. What do you want to eat?</h2>
+			<input type="text" id="keyword" placeholder="Ex. chinese, burrito, pizza, netflix and chill">
+			<input type="checkbox" id="type" value="restaurant">
+			<input type="checkbox" id="rankBy">
+
+			<div id="map"></div>
+			
+		</div>
+	</div>
+
+	<div id="second" class="container space">
+		<div class="row">
+			<h2>2. Choose a restaurant</h2>
+		</div>
+		<div class="row">
+			<div id="results"></div>
+		</div>
+		<div class="row">
+			<div id="result"></div>
+		</div>
+		<br>
+		<div class="row center take">
+            <a href="#third" class="btn-large waves-effect waves-light red white-text bold">Click here if drooling</a>
+        </div>
+	</div>
+
+	<div id="third" class="container space">
+		<div class="row">
+			<h2>3. Does that look good?</h2>
+		</div>
+		<div class="row center choice">
+            <a href="#fourth" class="btn-large waves-effect waves-light red white-text bold yes">
+            	<i class="material-icons">thumb_up</i>
+            </a>
+            
+            <a href="#first" class="btn-large waves-effect waves-light red white-text bold no">
+            	<i class="material-icons">thumb_down</i>
+            </a>
+        </div>
+	</div>
+
+	<div id="fourth" class="container space">
+		<div class="row">
+			<h2>4. Go eat at <span id="name">Chipotle</span></h2>
+		</div>
+	</div>
+
+	<footer class="page-footer red">
+		<div class="container">
+			<div class="row">
+				<div class="col l12 s12">
+					<h4 class="grey-text text-lighten-4">
+						Disclaimer
+					</h4>
+					<p class="grey-text text-lighten-4">
+						The pictures used on this website belong to their respective owners and I take no credit for them. Please do not sue me. I am broke.
+					</p>
+					<br>
+					<p class="grey-text text-lighten-4">#CollegeTuition</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				©2017 Copyright 
+			</div>
+		</div>
+	</footer>
+
+	<!--  jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Latest compiled and minified Materialize JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  	<!-- Init -->
+  	<script src="js/init.js"></script>
+
+  	<!-- Smooth Scroll -->
+  	<script src="js/smoothscroll.js"></script>
+
+  	<!-- Custom jQuery -->
+  	<script src="js/jquery.js"></script>
+
+  	<!-- Ajax -->
+  	<script src="js/ajax.js"></script>
+
+  	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB37dHF234rLJxj6ij4-XMuEPDnHvDxTbs&libraries=places&callback=initMap">
+    </script>
+
+    <!-- Google maps API -->
+    <script src="js/map.js"></script>
+
+    <!-- Typewriter -->
+    <script src="js/type.js"></script>
+</body>
+</html>
