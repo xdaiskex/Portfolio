@@ -23,7 +23,7 @@ function drawGraph(h, w){
 	var front = d3.select("#front")
 	.on('click', function(){
 		if(frontVisible == false){
-			var myData = [500, 500, 400, 300, 400];
+			var myData = [500, 400, 500, 400, 400];
 
 			var margin = myMargin;
 
@@ -176,7 +176,7 @@ function drawGraph(h, w){
 var back = d3.select("#back")
 	.on('click', function(){
 		if(backVisible == false){
-			var myData = [500, 400, 300, 400, 200];
+			var myData = [500, 500, 400, 400, 200];
 
 			var margin = myMargin;
 
