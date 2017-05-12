@@ -108,7 +108,7 @@
         else {
             current++;
         }
-        console.log("Current: " + current);
+        //console.log("Current: " + current);
         //console.log("Duration: " + duration);
     }
 })(jQuery);

@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Professor X",
+        "genre":"movie",
+        "shortname":"Professor_X",
+        "bio":"You can call me Professor XXX."
+    },
+    {
+        "name":"Professor Snape",
+        "genre":"movie",
+        "shortname":"Professor_Snape",
+        "bio":"I like women how I like my arts, dark and strong."
+    },
+    {
+        "name":"Dewey Finn",
+        "genre":"movie",
+        "shortname":"Dewey_Finn",
+        "bio":"I can rock (and roll) your world."
+    },
+    {
+        "name":"Professor Utonium",
+        "genre":"cartoon",
+        "shortname":"Professor_Utonium",
+        "bio":"I hope you don't mind (super powered, fingerless) children."
+    },
+    {
+        "name":"Hubert Farnsworth",
+        "genre":"cartoon",
+        "shortname":"Hubert_Farnsworth",
+        "bio":"Good news everyone, I am currently single."
+    },
+    {
+        "name":"Professor Oak",
+        "genre":"cartoon",
+        "shortname":"Professor_Oak",
+        "bio":"Metapod isn't the only one that knows how to use harden."
+    },
+    {
+        "name":"Okabe Rintarou",
+        "genre":"anime",
+        "shortname":"Okabe_Rintarou",
+        "bio":"I'm not really a professor, I just love lab coats."
+    },
+    {
+        "name":"Kakashi Hatake",
+        "genre":"anime",
+        "shortname":"Kakashi_Hatake",
+        "bio":"Want to know what's under my mask?"
+    },
+    {
+        "name":"Koro Sensei",
+        "genre":"anime",
+        "shortname":"Koro_Sensei",
+        "bio":"Yes, the tentacles are real."
+    }
+]

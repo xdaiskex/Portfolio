@@ -1,0 +1,324 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokepedia</title>
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+</head>
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsing" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#first" class="navbar-brand"> Pokepedia</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapsing">
+                <ul class="nav navbar-nav navbar-right" id="menu">
+                    <li class="active">
+                        <a href="#first" data-menuanchor="first"> Home </a>
+                    </li>
+                    <li>
+                        <a href="#about" data-menuanchor="about"> About </a>
+                    </li>
+                    <li>
+                        <a href="#second" data-menuanchor="second"> Starters </a>
+                    </li>
+                    <li>
+                        <a href="#third" data-menuanchor="third"> Pokedex </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="fullpage">
+        <audio id="pokeballOpen">
+            <source src="pokeball.ogg"></source>
+        </audio>
+        <audio id="pokeballWobble" loop>
+            <source src="wobble.ogg"></source>
+        </audio>
+        <audio id="backgroundMusic" loop>
+            <source src="background.ogg"></source>
+        </audio>
+        <audio id="evolveMusic">
+            <source src="evolve.ogg"></source>
+        </audio>
+        <audio id="click">
+            <source src="click.ogg"></source>
+        </audio>
+        <div class="section container first" data-anchor="first">
+             <div class="row center">
+                <h2 class="welcome1 center animated bounceIn">Welcome</h2>
+                <h2 class="welcome2">...to the wonderful world of Pokemon!</h2>
+                <hr class="animated bounceIn hr">
+                <img src="images/pokeball.png" alt="pokeball" id="pokeball" class="animated bounceInDown">
+                <img src="images/pokeman.png" alt="pokeball" id="pokeman">
+            </div>
+        </div>
+
+        <div class="section container about" data-anchor="about">
+            <div class="row center">
+                <h2 class="center">What is Pokemon?</h2>
+            </div>
+            <div class="row center what">
+                <img src="images/pokeball.png" alt="pokeball">
+                <h3>+</h3>
+                <img src="images/pikachu.png" alt="pikachu">
+                <h3>=</h3>
+                <img src="images/pikachu.gif" alt="pikachu" class="pikachu">
+            </div>
+        </div>
+
+        <div class="section container second" data-anchor="second">
+            <div class="row">
+                <h2>STARTERS</h2>
+            </div>
+            <div class="row center starters slide">
+                <div class="col-md-4 center">
+                    <div class="starterInfo grass green">
+                        <img src="">
+                    </div>
+                    <div id="bulbasaur">
+                        <h3 class="1">Bulbasaur</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo fire red">
+                        
+                    </div>
+                    <div id="charmander">
+                        <h3>Charmander</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo water blue">
+                        
+                    </div>
+                    <div id="squirtle">
+                        <h3>Squirtle</h3>
+                    </div>
+                </div>
+                <span class="elements element">*</span>
+                <button id="evolve1" class="btn btn-lg evolveBtn">Evolve</button>
+            </div>
+            <div class="row center starters slide">
+                <div class="col-md-4 center">
+                    <div class="starterInfo grass2 green">
+
+                    </div>
+                    <div id="chikorita">
+                        <h3 class="152">Chikorita</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo fire2 red">
+                        
+                    </div>
+                    <div id="cyndaquil">
+                        <h3>Cyndaquil</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo water2 blue">
+                        
+                    </div>
+                    <div id="totodile">
+                        <h3>Totodile</h3>
+                    </div>
+                </div>
+                <span class="elements element2">*</span>
+                <button id="evolve2" class="btn btn-lg evolveBtn">Evolve</button>
+            </div>
+            <div class="row center starters slide">
+                <div class="col-md-4 center">
+                    <div class="starterInfo grass3 green">
+
+                    </div>
+                    <div id="treecko">
+                        <h3 class="252">Treecko</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo fire3 red">
+                        
+                    </div>
+                    <div id="torchic">
+                        <h3>Torchic</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo water3 blue">
+                        
+                    </div>
+                    <div id="mudkip">
+                        <h3>Mudkip</h3>
+                    </div>
+                </div>
+                <span class="elements element3">*</span>
+                <button id="evolve3" class="btn btn-lg evolveBtn">Evolve</button>
+            </div>
+            <div class="row center starters slide">
+                <div class="col-md-4 center">
+                    <div class="starterInfo grass4 green">
+
+                    </div>
+                    <div id="turtwig">
+                        <h3 class="387">Turtwig</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo fire4 red">
+                        
+                    </div>
+                    <div id="chimchar">
+                        <h3>Chimchar</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo water4 blue">
+                        
+                    </div>
+                    <div id="piplup">
+                        <h3>Piplup</h3>
+                    </div>
+                </div>
+                <span class="elements element4">*</span>
+                <button id="evolve4" class="btn btn-lg evolveBtn">Evolve</button>
+            </div>
+            <div class="row center starters slide">
+                <div class="col-md-4 center">
+                    <div class="starterInfo grass5 green">
+
+                    </div>
+                    <div id="snivy">
+                        <h3 class="495">Snivy</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo fire5 red">
+                        
+                    </div>
+                    <div id="tepig">
+                        <h3>Tepig</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo water5 blue">
+                        
+                    </div>
+                    <div id="oshawott">
+                        <h3>Oshawott</h3>
+                    </div>
+                </div>
+                <span class="elements element5">*</span>
+                <button id="evolve5" class="btn btn-lg evolveBtn">Evolve</button>
+            </div>
+            <div class="row center starters slide">
+                <div class="col-md-4 center">
+                    <div class="starterInfo grass6 green">
+
+                    </div>
+                    <div id="chespin">
+                        <h3 class="650">Chespin</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo fire6 red">
+                        
+                    </div>
+                    <div id="fennekin">
+                        <h3>Fennekin</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="starterInfo water6 blue">
+                        
+                    </div>
+                    <div id="froakie">
+                        <h3>Froakie</h3>
+                    </div>
+                </div>
+                <span class="elements element6">*</span>
+                <button id="evolve6" class="btn btn-lg evolveBtn">Evolve</button>
+            </div>
+        </div>
+
+        <div class="section container third" data-anchor="third">
+            <div class="row center">
+                <h2 class="center">POKEDEX</h2>
+            </div>
+            <div class="row pokedex">
+                <div class="col-md-4 col-md-offset-4 center">
+                    <form id="pokemonForm" method="post">
+                        <input type="text" name="pName" class="form-control" placeholder="Pick a number 1-721 or type a name" id="searchForm">
+                    </form>
+                    <img src="images/loading.gif" alt="loading" id="loading">
+                </div>
+            </div>
+            <div class="row">
+                <div class="error center">
+                    <h4 class='noResults'>No results found</h4>
+                </div>
+
+                <div class="col-md-12 center pokemon">
+                    <div class="col-md-12">
+                        <img id="pokedexImage">
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Name</h3>
+                        <p id="name"></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Number</h3>
+                        <p id="number"></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Type</h3>
+                        <p id="type"></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Moves</h3>
+                        <p id="move"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <script src="scripts/vendor.js"></script>
+
+    <script src="scripts/plugins.js"></script>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

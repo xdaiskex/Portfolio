@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Signup</title>
+
+	<!-- Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<!-- Latest compiled and minified Boostrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsing" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="home.php" class="navbar-brand"><span class="date">DATE MY </span><span class="professor">PROFESSOR</span></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapsing">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="">
+						<a href="home.php"> HOME </a>
+					</li>
+					<li class="">
+						<a href="professors.html"> PROFESSORS </a>
+					</li>
+					<li class="">
+						<a href="chats.php"> CHAT </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 logging">
+				<h1 class="signup">Signup</h1>
+				<form action="signup.php" method="post" id="signup">
+					<label>Username</label>
+					<p id="userError"></p>
+					<input type="text" name="username" class="form-control" id="username" required>
+					<label>Password</label>
+					<p id="passError"></p>
+					<input type="password" name="password" class="form-control" id="password" required>
+					<label>First Name</label>
+					<input type="text" name="first" class="form-control" id="first" required>
+					<label>Last Name</label>
+					<input type="text" name="last" class="form-control" id="last" required>
+					<div class="center">
+						<button type="submit" id="signupSubmit" class="btn btn-primary btn-lg col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">Submit</button>
+					</div>
+					<br><br>
+					<p id="signError"></p>
+					<div class="center">
+						<a href="login.html" class="col-sm-12 signUpNow signing">Already a user? Log in here!</a>
+					</div>
+				</form>
+				
+				<div id="success" class="center">	
+					<h2>Signup Successful!</h2>
+					<p>Click the button below to login.</p>
+					<a href="login.html" class="btn btn-primary btn-lg col-lg-4 col-lg-offset-4 black">
+						Login
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--  jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Latest compiled and minified Boostrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Ajax -->
+	<script src="js/ajax.js"></script>
+
+	<!-- Custom jQuery -->
+	<script src="js/jquery.js"></script>
+</body>
+</html>

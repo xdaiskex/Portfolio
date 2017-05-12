@@ -1,0 +1,465 @@
+body{
+	font-family: helvetica;
+	/*background-color: #52B3D9;*/
+	background-color: #D2D7D3;
+}
+
+nav{
+	font-size: 20px;
+}
+
+.navbar{
+	background-color: black;
+	padding: 10px;
+}
+
+.navbar .nav li a{
+	color: #D2D7D3;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-brand{
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.navbar-brand .date{
+	color: #87D37C;
+}
+
+.navbar-brand .professor{
+	color: #22A7F0;
+}
+
+.center{
+	text-align: center;
+}
+
+.jumbotron{
+	background-color: #4183D7;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+.jumbotron h2{
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.jumbotron .btn{
+	background-color: black;
+	font-size: 24px;
+}
+
+h1{
+	margin-top: 50px;
+}
+
+#searchArea label{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+#searchArea p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#searchArea input{
+	font-size: 20px;
+}
+
+#searchArea{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#update{
+	min-height: 200px;
+}
+
+#update h2{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#update p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#update ul li{
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	height: 70px;
+	overflow: hidden;
+	border-bottom: 1px dotted black;
+
+	animation: myanim .7s;
+
+	transition: height 1s ease-in-out;
+}
+
+#update ul li:hover{
+	background-color: #87D37C;
+	height: 200px;
+	cursor: pointer;
+}
+
+#update img{
+	float: left;
+	margin-right: 20px;
+	border: 5px solid black;
+}
+
+#update ul{
+	margin-bottom: 100px;
+}
+
+.search{
+	padding-bottom: 200px;
+}
+
+@keyframes myanim{
+	0%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.loader{
+	display: none;
+}
+
+label{
+	font-size: 20px;
+}
+
+input{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.signup, .login{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+#userError, #passError{
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	display: inline;
+}
+
+#signError{
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	display: none;
+}
+
+#signupSubmit, #loginSubmit{
+	font-size: 20px;
+	margin-top: 20px;
+	background-color: black;
+}
+
+#success{
+	display: none;
+	margin-top: 150px;
+}
+
+#success h2{
+	font-size: 50px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+#success p{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+#success a{
+	color: white;
+	font-size: 30px;
+}
+
+#loginError{
+	font-size: 24px;
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+}
+
+
+.icon-bar{
+	border: 1px solid white;
+}
+
+.signUpNow{
+	margin-top: 10px;
+	font-size: 20px;
+	color: black;
+}
+
+.signUpNow:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.logging{
+	margin-bottom: 40px;
+}
+
+.signing{
+	margin-top: 40px;
+}
+
+hr{
+	max-width: 60px;
+	margin-top: -20px;
+	margin-bottom: 50px;
+	border-top: 5px solid black;
+}
+
+#chatLog{
+	background-color: white;
+	height: 400px;
+	box-shadow: 0px 0px 10px 0px black;
+	margin-top: 20px;
+	overflow: auto;
+	padding: 20px;
+	font-size: 18px;
+}
+
+#chat{
+	box-shadow: 0px 0px 10px 0px black;
+	margin-bottom: 100px;
+}
+
+.professorImage{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+.professorSort{
+	margin-bottom: 30px;
+}
+
+h3{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.black{
+	background-color: black !important;
+}
+
+#sortForm{
+	margin-top: 20px;
+	margin-bottom: 300px;
+	font-weight: normal;
+	border-right: 2px solid black;
+}
+
+#sortForm label{
+	font-size: 30px;
+}
+
+#sortForm input, label{
+	display: inline-block;
+}
+
+#sort{
+	margin-top: 80px;
+}
+
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+    margin-right: 5px;
+}
+
+input[type='checkbox']:checked {
+    background: #abd;
+}
+
+.selectCat{
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+.hot{
+	width: 150px;
+	height: 200px;
+	margin-top: 20px;
+}
+
+.professorProfile, .professorInfo, .hotness{
+	margin-bottom: 100px;
+	margin-top: 150px;
+}
+
+.professorProfile{
+	border-right: 2px solid black;
+}
+
+.professorProfile img{
+	height: 300px;
+	width: 300px;
+	border-radius: 0%;
+	border: 5px solid black;
+}
+
+.profiles{
+	margin-top: 100px;
+}
+
+.info{
+	font-size: 30px;
+}
+
+.hotness h3{
+	font-size: 30px;
+}
+
+.professorInfo h3{
+	font-size: 30px;
+}
+
+.professorName{
+	font-size: 30px;
+}
+
+.commentChain{
+	margin-bottom: 200px;
+}
+
+.commentBlock{
+	padding: 20px;
+}
+
+.commentBlock span{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#commentForm{
+	margin-top: 50px;
+}
+
+.commentBlock:nth-child(even){
+	background-color: #52B3D9;
+}
+
+.commentBlock:nth-child(odd){
+	background-color: #87D37C;
+}
+
+.deleteComment{
+	color: black;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.deleteComment:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.ajaxPic{
+	width: 100px;
+	height: 100px;
+}
+
+.commentTitle{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.chatTitle{
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 40px;
+}
+
+@media only screen and (max-width : 992px) {
+	.navbar-brand{
+		font-size: 18px;
+	}
+
+	.navbar .nav li a{
+		font-size: 18px;
+	}
+
+	#sortForm{
+		margin-top: 20px;
+		margin-bottom: 40px;
+		font-weight: normal;
+		border-right: none;
+	}
+
+	.professorProfile, .professorInfo, .hotness{
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.professorProfile{
+		margin-top: 150px;
+		border-right: none;
+	}
+
+	.professorInfo h3, .info{
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.navbar-brand{
+		font-size: 16px;
+	}
+
+	#chatLog{
+		font-size: 16px;
+	}
+
+	#sortForm{
+		margin-top: 20px;
+		margin-bottom: 40px;
+		font-weight: normal;
+		border-right: none;
+	}
+
+	#searchArea label{
+		font-size: 18px;
+	}
+
+	#update h2{
+		font-size: 30px;
+	}
+
+	#update p{
+		font-size: 16px;
+	}
+}

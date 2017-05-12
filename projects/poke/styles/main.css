@@ -1,0 +1,374 @@
+@font-face {
+    font-family: marker;
+    src: url(../fonts/marker.ttf);
+}
+
+body{
+    font-family: helvetica;
+}
+
+nav{
+    font-size: 20px;
+}
+
+nav li a{
+    color: white !important;
+    font-family: marker;
+    font-size: 25px;
+}
+
+.nav li a:hover{
+    background-color: white !important;
+    color: #4183D7 !important;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    background-color: #4183D7;
+}
+
+#menu .active{
+    background-color: white !important;
+    color: #4183D7 !important;
+    padding-bottom: 20px;
+}
+
+.btn-primary{
+    background-color: #4183D7;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    color: white !important;
+    font-family: marker;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-family: marker;
+}
+
+hr{
+    max-width: 60px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    /*border-top: 5px solid #4183D7;*/
+    border-top: 5px solid black;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.elements{
+    color: white;
+    font-size: 30px;
+}
+
+.typed-cursor{
+    opacity: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+.icon-bar{
+    background-color: white !important;
+}
+
+.navbar-toggle{
+    border: 2px solid white !important;
+}
+
+#pokedexImage, #loading{
+    height: 200px;
+    width: 200px;
+}
+
+.error .noResults{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.error{
+    display: none;
+}
+
+.starters .starterInfo{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.starterInfo img{
+    padding: 10px;
+}
+
+.green{
+    background-color: #87D37C;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.red{
+    background-color: #EC644B;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.blue{
+    background-color: #52B3D9;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.second, .third{
+    display: none;
+}
+
+.navbar{
+    opacity: 0;
+}
+
+.starterInfo img{
+    width: 300px;
+    height: 300px;
+}
+
+.starters{
+    margin: auto;
+}
+
+.evolveBtn {
+    background: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: auto;
+    margin-top: -10px;
+    padding: .5em 2em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+button::before,
+button::after {
+    background: black;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.evolveBtn:hover {
+    color: white;
+}
+
+.evolveBtn {
+    overflow: hidden;
+}
+
+.evolveBtn::after {
+    height: 100%;
+    left: -35%;
+    top: 0;
+    -webkit-transform: skew(50deg);
+            transform: skew(50deg);
+    -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+    width: 0;
+}
+
+.evolveBtn:hover:after {
+    height: 100%;
+    width: 135%;
+}
+
+.starterInfo img{
+    -webkit-filter: drop-shadow(1px 1px 0 black) 
+            drop-shadow(-1px -1px 0 black);
+            filter: drop-shadow(1px 1px 0 black) 
+            drop-shadow(-1px -1px 0 black);
+}
+
+.pokemon img{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+                    drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black) 
+            drop-shadow(-1px -1px 0 black);
+}
+
+.welcome1 {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: .5s;
+}
+
+.hr {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1.25s;
+}
+
+#pokeball {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1.5s;
+}
+
+.flash{
+    opacity: 0;
+}
+
+#pokeman, .welcome2{
+    display: none;
+}
+
+#pokeman{
+    margin: auto;
+    height: 400px;
+}
+
+#pokeball{
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+
+}
+#pokeball:hover{
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            -webkit-animation-name: spin;
+                    animation-name: spin;
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+            
+}
+
+@-webkit-keyframes spin { 
+    from { 
+        -webkit-transform: rotate(10deg); 
+    } to { 
+        -webkit-transform: rotate(-10deg); 
+    } 
+}
+@keyframes spin { 
+    from { 
+        -webkit-transform: rotate(10deg); 
+                transform: rotate(10deg); 
+    } to { 
+        -webkit-transform: rotate(-10deg); 
+                transform: rotate(-10deg); 
+    }
+}
+
+#pokeball{
+    cursor: pointer;
+}
+
+.fp-controlArrow.fp-prev{
+    border-color: transparent black;
+}
+
+.fp-controlArrow.fp-next{
+    border-color: transparent black;
+}
+
+#searchPoke{
+    background-color: black;
+}
+
+#searchForm{
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.pokemon h3 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.pokemon p {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    font-size: 22px;
+}
+
+.pikachu{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    background-color: black;
+    -webkit-filter: brightness(110%);
+            filter: brightness(110%);
+    -webkit-filter: contrast(150%);
+            filter: contrast(150%);
+}
+
+.what img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.what h3{
+    display: inline-block;
+    font-size: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+}
+
+#loading, .pokemon{
+    display: none;
+}
+
+@media only screen and (max-width: 770px){
+    .nav li a{
+        box-shadow: none !important;
+        border-bottom: 1px solid white;
+    }
+
+    .nav li a:hover{
+        background-color: white !important;
+        color: #4183D7 !important;
+    }
+
+    .nav{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
