@@ -11,97 +11,97 @@ $(document).ready(function () {
 	var evolve6 = 0;
 
 	//Generation 1
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/1/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/1/', function (data) {
 		$('.grass').empty();
 		$('.grass').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/4/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/4/', function (data) {
 		$('.fire').empty();
 		$('.fire').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/7/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/7/', function (data) {
 		$('.water').empty();
 		$('.water').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
 	//Generation 2
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/152/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/152/', function (data) {
 		$('.grass2').empty();
 		$('.grass2').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/155/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/155/', function (data) {
 		$('.fire2').empty();
 		$('.fire2').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/158/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/158/', function (data) {
 		$('.water2').empty();
 		$('.water2').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
 	//Generation 3
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/252/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/252/', function (data) {
 		$('.grass3').empty();
 		$('.grass3').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/255/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/255/', function (data) {
 		$('.fire3').empty();
 		$('.fire3').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/258/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/258/', function (data) {
 		$('.water3').empty();
 		$('.water3').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
 	//Generation 4
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/387/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/387/', function (data) {
 		$('.grass4').empty();
 		$('.grass4').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/390/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/390/', function (data) {
 		$('.fire4').empty();
 		$('.fire4').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/393/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/393/', function (data) {
 		$('.water4').empty();
 		$('.water4').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
 	//Generation 5
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/495/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/495/', function (data) {
 		$('.grass5').empty();
 		$('.grass5').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/498/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/498/', function (data) {
 		$('.fire5').empty();
 		$('.fire5').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/501/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/501/', function (data) {
 		$('.water5').empty();
 		$('.water5').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
 	//Generation 6
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/650/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/650/', function (data) {
 		$('.grass6').empty();
 		$('.grass6').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/653/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/653/', function (data) {
 		$('.fire6').empty();
 		$('.fire6').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
 
-	$.getJSON('http://pokeapi.co/api/v2/pokemon/656/', function (data) {
+	$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/656/', function (data) {
 		$('.water6').empty();
 		$('.water6').append('<img src=\'' + data.sprites.front_default + '\' alt=\'' + data.name + '\'>');
 	});
@@ -116,7 +116,7 @@ $(document).ready(function () {
 			$('.fire img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			$('.water img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 0) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 0) + '/', function (data) {
 				$('#bulbasaur h3').empty();
 				$('#bulbasaur h3').html(Capitalize(data.name));
 				$('.grass').empty();
@@ -125,7 +125,7 @@ $(document).ready(function () {
 				$('.grass img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 3) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 3) + '/', function (data) {
 				$('#charmander h3').empty();
 				$('#charmander h3').html(Capitalize(data.name));
 				$('.fire').empty();
@@ -134,7 +134,7 @@ $(document).ready(function () {
 				$('.fire img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 6) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 6) + '/', function (data) {
 				$('#squirtle h3').empty();
 				$('#squirtle h3').html(Capitalize(data.name));
 				$('.water').empty();
@@ -155,7 +155,7 @@ $(document).ready(function () {
 			$('.fire2 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			$('.water2 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 0) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 0) + '/', function (data) {
 				$('#chikorita h3').empty();
 				$('#chikorita h3').html(Capitalize(data.name));
 				$('.grass2').empty();
@@ -164,7 +164,7 @@ $(document).ready(function () {
 				$('.grass2 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 3) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 3) + '/', function (data) {
 				$('#cyndaquil h3').empty();
 				$('#cyndaquil h3').html(Capitalize(data.name));
 				$('.fire2').empty();
@@ -173,7 +173,7 @@ $(document).ready(function () {
 				$('.fire2 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 6) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 6) + '/', function (data) {
 				$('#totodile h3').empty();
 				$('#totodile h3').html(Capitalize(data.name));
 				$('.water2').empty();
@@ -194,7 +194,7 @@ $(document).ready(function () {
 			$('.fire3 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			$('.water3 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 0) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 0) + '/', function (data) {
 				$('#treecko h3').empty();
 				$('#treecko h3').html(Capitalize(data.name));
 				$('.grass3').empty();
@@ -203,7 +203,7 @@ $(document).ready(function () {
 				$('.grass3 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 3) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 3) + '/', function (data) {
 				$('#torchic h3').empty();
 				$('#torchic h3').html(Capitalize(data.name));
 				$('.fire3').empty();
@@ -212,7 +212,7 @@ $(document).ready(function () {
 				$('.fire3 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 6) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 6) + '/', function (data) {
 				$('#mudkip h3').empty();
 				$('#mudkip h3').html(Capitalize(data.name));
 				$('.water3').empty();
@@ -233,7 +233,7 @@ $(document).ready(function () {
 			$('.fire4 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			$('.water4 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 0) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 0) + '/', function (data) {
 				$('#turtwig h3').empty();
 				$('#turtwig h3').html(Capitalize(data.name));
 				$('.grass4').empty();
@@ -242,7 +242,7 @@ $(document).ready(function () {
 				$('.grass4 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 3) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 3) + '/', function (data) {
 				$('#chimchar h3').empty();
 				$('#chimchar h3').html(Capitalize(data.name));
 				$('.fire4').empty();
@@ -251,7 +251,7 @@ $(document).ready(function () {
 				$('.fire4 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 6) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 6) + '/', function (data) {
 				$('#piplup h3').empty();
 				$('#piplup h3').html(Capitalize(data.name));
 				$('.water4').empty();
@@ -272,7 +272,7 @@ $(document).ready(function () {
 			$('.fire5 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			$('.water5 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 0) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 0) + '/', function (data) {
 				$('#snivy h3').empty();
 				$('#snivy h3').html(Capitalize(data.name));
 				$('.grass5').empty();
@@ -281,7 +281,7 @@ $(document).ready(function () {
 				$('.grass5 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 3) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 3) + '/', function (data) {
 				$('#tepig h3').empty();
 				$('#tepig h3').html(Capitalize(data.name));
 				$('.fire5').empty();
@@ -290,7 +290,7 @@ $(document).ready(function () {
 				$('.fire5 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 6) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 6) + '/', function (data) {
 				$('#oshawott h3').empty();
 				$('#oshawott h3').html(Capitalize(data.name));
 				$('.water5').empty();
@@ -311,7 +311,7 @@ $(document).ready(function () {
 			$('.fire6 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			$('.water6 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 0) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 0) + '/', function (data) {
 				$('#chespin h3').empty();
 				$('#chespin h3').html(Capitalize(data.name));
 				$('.grass6').empty();
@@ -320,7 +320,7 @@ $(document).ready(function () {
 				$('.grass6 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 3) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 3) + '/', function (data) {
 				$('#fennekin h3').empty();
 				$('#fennekin h3').html(Capitalize(data.name));
 				$('.fire6').empty();
@@ -329,7 +329,7 @@ $(document).ready(function () {
 				$('.fire6 img').fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 			});
 
-			$.getJSON('http://pokeapi.co/api/v2/pokemon/' + (id + 6) + '/', function (data) {
+			$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + (id + 6) + '/', function (data) {
 				$('#froakie h3').empty();
 				$('#froakie h3').html(Capitalize(data.name));
 				$('.water6').empty();
@@ -343,7 +343,7 @@ $(document).ready(function () {
 
 	//Pokedex functionality
 	function GetPokemon(pokemon) {
-		$.getJSON('http://pokeapi.co/api/v2/pokemon/' + pokemon + '/', function (data) {
+		$.getJSON('http://pokeapi.salestock.net/api/v2/pokemon/' + pokemon + '/', function (data) {
 			pokeId = data.id;
 
 			//Clear all previous data
